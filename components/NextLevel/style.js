@@ -18,7 +18,7 @@ export const Container = styled.div`
 `;
 export const Main = styled.div`
   display: grid;
-  grid-template-columns: 1fr 0.85fr;
+  grid-template-columns: 0.85fr 1fr;
   align-items: center;
   justify-content: stretch;
   grid-gap: 60px;
@@ -28,27 +28,27 @@ export const Main = styled.div`
   }
 `;
 export const Title = styled.h1`
-  font-size: 60px;
+  font-size: 44px;
   font-weight: bold;
   line-height: 125%;
   margin: 0;
   margin-top: 10px;
 
   @media (max-width: 1024px) {
-    font-size: 54px;
+    font-size: 32px;
   }
 
   @media (max-width: 900px) {
-    font-size: 44px;
+    font-size: 32px;
   }
 `;
 export const Subtitle = styled.p`
-  font-size: 26px;
+  font-size: 22px;
   line-height: 1.4em;
   color: #57577d;
 
   @media (max-width: 1024px) {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   @media (max-width: 900px) {
@@ -84,6 +84,7 @@ export const Button = styled.button`
 export const TitleContainer = styled.div`
   display: flex;
   flex-direction: column;
+  max-width: 600px;
 
   #secondButton {
     background: #e7e7ff;
@@ -130,7 +131,7 @@ export const Div = styled.div`
   background-color: blue;
 `;
 export const Span = styled.span`
-  font-size: 14px;
+  font-size: 12px;
   color: blue;
   margin-left: 10px;
   font-weight: bold;
@@ -158,18 +159,18 @@ export const FeaturedImage = styled.div`
 `;
 
 export const SideColor = styled.div`
-  /* background-image: url("https://images.unsplash.com/photo-1586766924681-d3474262ceea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80");
+  background-image: url("https://images.unsplash.com/photo-1585496435563-73bb9c679a56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   height: 110vh;
   background-color: blue;
   width: 40%;
   position: absolute;
   z-index: -1;
-  right: 0;
-  top: 0;
-  border-bottom-left-radius: 10px;
+  left: 0;
+  margin-top: -180px;
+  border-bottom-right-radius: 10px;
 
   @media (max-width: 1024px) {
     background-color: #f3f3fd;

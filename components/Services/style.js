@@ -2,8 +2,12 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   padding: 90px 30px;
-  min-height: 100vh;
+
   z-index: 1;
+
+  @media (max-width: 2000px) {
+    min-height: 70vh;
+  }
 
   @media (max-width: 1024px) {
     padding: 90px 20px;
