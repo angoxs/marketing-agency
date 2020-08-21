@@ -4,11 +4,11 @@ export const Container = styled.nav`
   height: 10vh;
   display: flex;
   background-color: #fff;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid #e7e7ff;
   position: relative;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 0 5vw;
+  padding: 0 3vw;
   z-index: 2;
   align-items: center;
 
@@ -27,7 +27,6 @@ export const NavBox = styled.div`
   grid-template-columns: repeat(5, auto);
   align-items: center;
   justify-content: flex-end;
-
   grid-gap: 20px;
   height: 100%;
 
@@ -42,7 +41,7 @@ export const NavBox = styled.div`
     position: fixed;
     width: 100%;
     padding-top: 10vh;
-    background-color: #000;
+    background-color: #fff;
     transition: all 0.3s ease-in;
     top: 8vh;
     left: ${(props) => (props.open ? "-100%" : "0")};
@@ -63,7 +62,7 @@ export const Toggle = styled.div`
 `;
 
 export const Hamburger = styled.div`
-  background-color: #111;
+  background-color: #000;
   width: 30px;
   height: 3px;
   border-radius: 3px;
@@ -77,7 +76,7 @@ export const Hamburger = styled.div`
     width: 30px;
     border-radius: 2px;
     height: 3px;
-    background-color: #111;
+    background-color: #000;
     content: "";
     position: absolute;
     transition: all 0.3s linear;

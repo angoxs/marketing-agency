@@ -37,6 +37,17 @@ const NavItem = styled(Link)`
   }
 `;
 
+const Button = styled.button`
+  font-size: 14px;
+  padding: 8px 18px;
+  border: none;
+  cursor: pointer;
+  background: blue;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+`;
+
 export default function NavLinks() {
   return (
     <>
@@ -53,7 +64,7 @@ export default function NavLinks() {
         <a>Inspiration</a>
       </NavItem>
       <a href="mailto:angelCL0@outlook.com">
-        <button>Hi &rarr;</button>
+        <Button>Contact</Button>
       </a>
     </>
   );
