@@ -16,22 +16,23 @@ export default function Services() {
     <Container>
       <Main>
         <TitleGroup>
-          <Fade up>
-            <TitleContainer>
+          <TitleContainer>
+            <Fade up>
               <Title>A Brand-first Creative Agency</Title>
               <Subtitle>
                 Every story we tell, every brand we build, and every interaction
                 we create must not only look beautiful but has to feel and
                 function beautifully, too. Crafted to perfection.
               </Subtitle>
-            </TitleContainer>
-          </Fade>
-          <Fade right>
-            <Quote>
-              <Div />
+            </Fade>
+          </TitleContainer>
+
+          <Quote>
+            <Div />
+            <Fade right>
               <Span>DIGITAL CREATIVE AGENCY</Span>
-            </Quote>
-          </Fade>
+            </Fade>
+          </Quote>
         </TitleGroup>
       </Main>
     </Container>
