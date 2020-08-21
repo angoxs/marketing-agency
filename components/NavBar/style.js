@@ -8,7 +8,7 @@ export const Container = styled.nav`
   position: relative;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 0 3vw;
+  padding: 0 30px;
   z-index: 2;
   align-items: center;
 
@@ -19,6 +19,7 @@ export const Container = styled.nav`
     left: 0;
     right: 0;
     left: 0;
+    padding: 20px;
   }
 `;
 
