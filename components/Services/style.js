@@ -89,3 +89,21 @@ export const Span = styled.span`
     font-size: 12px;
   }
 `;
+
+export const ServiceGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  align-items: center;
+  justify-content: stretch;
+  width: 100%;
+  grid-gap: 20px;
+  margin-top: 50px;
+
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(2, auto);
+  }
+
+  @media (max-width: 675px) {
+    grid-template-columns: repeat(1, auto);
+  }
+`;

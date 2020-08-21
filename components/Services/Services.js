@@ -8,8 +8,10 @@ import {
   Quote,
   Div,
   Span,
+  ServiceGrid,
 } from "./style";
 import Fade from "react-reveal/Fade";
+import Service from "./Service";
 
 export default function Services() {
   return (
@@ -28,12 +30,36 @@ export default function Services() {
           </TitleContainer>
 
           <Quote>
+            <Div />
             <Fade left>
-              <Div />
               <Span>DIGITAL CREATIVE AGENCY</Span>
             </Fade>
           </Quote>
         </TitleGroup>
+        <Fade up>
+          <ServiceGrid>
+            <Service
+              image="/Icons/monitor.svg"
+              title="Design"
+              subtitle="Lorem ipsum dolor sit amet, coectetur adipiscing elit."
+            />
+            <Service
+              image="/Icons/gear.svg"
+              title="Application"
+              subtitle="AnytLorem ipsum dolor sit amet, coectetur adipiscing elit.hing"
+            />
+            <Service
+              image="/Icons/supermarket.svg"
+              title="Ecommerce"
+              subtitle="Lorem ipsum dolor sit amet, coectetur adipiscing elit."
+            />
+            <Service
+              image="/Icons/speaker.svg"
+              title="Smooth Interactions"
+              subtitle="Lorem ipsum dolor sit amet, coectetur adipiscing elit."
+            />
+          </ServiceGrid>
+        </Fade>
       </Main>
     </Container>
   );
