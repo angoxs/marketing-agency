@@ -18,6 +18,7 @@ export default function Hero() {
   return (
     <Container>
       <SideColor />
+
       <Main>
         <TitleContainer>
           <Welcome>
