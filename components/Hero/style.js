@@ -152,7 +152,7 @@ export const SideColor = styled.div`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; */
-  height: 100vh;
+  height: 110vh;
   background-color: blue;
   width: 40%;
   position: absolute;
@@ -163,5 +163,6 @@ export const SideColor = styled.div`
 
   @media (max-width: 1024px) {
     background-color: #f3f3fd;
+    height: 100vh;
   }
 `;
