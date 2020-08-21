@@ -8,6 +8,9 @@ export const Container = styled.div`
   @media (max-width: 1024px) {
     padding: 90px 20px;
   }
+  @media (max-width: 900px) {
+    padding: 60px 20px;
+  }
 `;
 export const Main = styled.div`
   display: grid;
