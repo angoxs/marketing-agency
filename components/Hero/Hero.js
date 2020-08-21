@@ -33,7 +33,7 @@ export default function Hero() {
             beautifully, too. Crafted to perfection.
           </Subtitle>
           <ButtonGroup>
-            <Button>Get Started</Button>
+            <Button>Purchase</Button>
             <Button id="secondButton">Demo</Button>
           </ButtonGroup>
         </TitleContainer>

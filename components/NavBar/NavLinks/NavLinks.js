@@ -52,16 +52,16 @@ export default function NavLinks() {
   return (
     <>
       <NavItem href="/design">
-        <a>Design</a>
+        <a>Home</a>
       </NavItem>
       <NavItem href="/code">
-        <a>Code</a>
+        <a>Works</a>
       </NavItem>
       <NavItem href="/templates">
-        <a>Templates</a>
+        <a>Clients</a>
       </NavItem>
       <NavItem href="/inspiration">
-        <a>Inspiration</a>
+        <a>About</a>
       </NavItem>
       <a href="mailto:angelCL0@outlook.com">
         <Button>Contact</Button>
