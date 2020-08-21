@@ -22,7 +22,7 @@ export default function Hero() {
       <Main>
         <TitleContainer>
           <Welcome>
-            <Fade left>
+            <Fade up>
               <Div />
               <Span>WELCOME</Span>
             </Fade>
