@@ -84,6 +84,7 @@ export const TitleContainer = styled.div`
     @media (max-width: 900px) {
       font-size: 14px;
       padding: 12px 25px;
+      border: 1px solid #d7d7fd;
     }
   }
 `;
@@ -154,6 +155,6 @@ export const SideColor = styled.div`
   border-bottom-left-radius: 10px;
 
   @media (max-width: 1024px) {
-    background-color: #dcdcf1;
+    background-color: #f3f3fd;
   }
 `;
