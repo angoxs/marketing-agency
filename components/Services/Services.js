@@ -36,30 +36,37 @@ export default function Services() {
             </Fade>
           </Quote>
         </TitleGroup>
-        <Fade up>
-          <ServiceGrid>
+
+        <ServiceGrid>
+          <Fade up>
             <Service
               image="/Icons/monitor.svg"
               title="Design"
               subtitle="Lorem ipsum dolor sit amet, coectetur adipiscing elit."
             />
+          </Fade>
+          <Fade up>
             <Service
               image="/Icons/gear.svg"
               title="Application"
               subtitle="AnytLorem ipsum dolor sit amet, coectetur adipiscing elit.hing"
             />
+          </Fade>
+          <Fade up>
             <Service
               image="/Icons/supermarket.svg"
               title="Ecommerce"
               subtitle="Lorem ipsum dolor sit amet, coectetur adipiscing elit."
             />
+          </Fade>
+          <Fade up>
             <Service
               image="/Icons/speaker.svg"
               title="Smooth Interactions"
               subtitle="Lorem ipsum dolor sit amet, coectetur adipiscing elit."
             />
-          </ServiceGrid>
-        </Fade>
+          </Fade>
+        </ServiceGrid>
       </Main>
     </Container>
   );
