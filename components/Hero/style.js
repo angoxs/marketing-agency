@@ -49,7 +49,7 @@ export const Subtitle = styled.p`
   }
 `;
 export const Button = styled.button`
-  padding: 15px 35px;
+  padding: 15px 30px;
   color: white;
   background: blue;
   border: none;
@@ -64,7 +64,7 @@ export const Button = styled.button`
   }
 
   @media (max-width: 900px) {
-    font-size: 12px;
+    font-size: 14px;
     padding: 12px 25px;
   }
 `;
@@ -82,7 +82,7 @@ export const TitleContainer = styled.div`
     }
 
     @media (max-width: 900px) {
-      font-size: 12px;
+      font-size: 14px;
       padding: 12px 25px;
     }
   }
@@ -91,8 +91,10 @@ export const TitleContainer = styled.div`
 export const ButtonGroup = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: flex-start;
   grid-gap: 10px;
-  max-width: 450px;
+  max-width: 420px;
 
   @media (max-width: 1024px) {
     max-width: 350px;
@@ -130,6 +132,11 @@ export const FeaturedImage = styled.div`
 
   @media (max-width: 675px) {
     height: 400px;
+    background-image: url("/Example.png");
+  }
+
+  @media (max-width: 375px) {
+    height: 300px;
     background-image: url("/Example.png");
   }
 `;
