@@ -28,7 +28,7 @@ export default function Services() {
           </TitleContainer>
 
           <Quote>
-            <Fade right>
+            <Fade left>
               <Div />
               <Span>DIGITAL CREATIVE AGENCY</Span>
             </Fade>
