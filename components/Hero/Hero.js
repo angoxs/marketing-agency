@@ -21,10 +21,13 @@ export default function Hero() {
 
       <Main>
         <TitleContainer>
-          <Welcome>
-            <Div />
-            <Span>WELCOME</Span>
-          </Welcome>
+          <Fade left>
+            <Welcome>
+              <Div />
+              <Span>WELCOME</Span>
+            </Welcome>
+          </Fade>
+
           <Fade>
             <Title>We make digital beautiful</Title>
           </Fade>

@@ -60,7 +60,7 @@ export const Subtitle = styled.p`
   }
 
   @media (max-width: 900px) {
-    font-size: 16px;
+    font-size: 18px;
   }
 `;
 export const Quote = styled.div`
