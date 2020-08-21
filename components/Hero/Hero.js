@@ -24,7 +24,6 @@ export default function Hero() {
           <Welcome>
             <Fade left>
               <Div />
-
               <Span>WELCOME</Span>
             </Fade>
           </Welcome>
