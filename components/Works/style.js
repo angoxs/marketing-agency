@@ -30,4 +30,8 @@ export const Title = styled.div`
   line-height: 125%;
   margin: 0;
   margin-bottom: 20px;
+
+  @media (max-width: 675px) {
+    font-size: 32px;
+  }
 `;
