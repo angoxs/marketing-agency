@@ -28,8 +28,10 @@ export default function Services() {
           </TitleContainer>
 
           <Quote>
-            <Div />
-            <Span>DIGITAL CREATIVE AGENCY</Span>
+            <Fade left>
+              <Div />
+              <Span>DIGITAL CREATIVE AGENCY</Span>
+            </Fade>
           </Quote>
         </TitleGroup>
       </Main>
