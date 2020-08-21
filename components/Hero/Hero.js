@@ -34,7 +34,7 @@ export default function Hero() {
           </Subtitle>
           <ButtonGroup>
             <Button>Get Started</Button>
-            <Button id="secondButton">Schedule a demo</Button>
+            <Button id="secondButton">Demo</Button>
           </ButtonGroup>
         </TitleContainer>
         <FeaturedImage />

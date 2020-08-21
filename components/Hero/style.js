@@ -132,12 +132,10 @@ export const FeaturedImage = styled.div`
 
   @media (max-width: 675px) {
     height: 400px;
-    background-image: url("/Example.png");
   }
 
   @media (max-width: 375px) {
     height: 300px;
-    background-image: url("/Example.png");
   }
 `;
 
