@@ -131,12 +131,16 @@ export const FeaturedImage = styled.div`
   background-repeat: no-repeat;
   border-radius: 10px;
 
-  @media (max-width: 675px) {
+  @media (max-width: 1024px) {
     height: 400px;
   }
 
+  @media (max-width: 675px) {
+    height: 350px;
+  }
+
   @media (max-width: 375px) {
-    height: 300px;
+    height: 250px;
   }
 `;
 
