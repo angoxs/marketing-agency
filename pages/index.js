@@ -1,6 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import { Hero, NavBar, Services } from "../components";
+import { Hero, NavBar, Services, Works } from "../components";
 
 export default function Home() {
   return (
@@ -13,6 +13,7 @@ export default function Home() {
 
       <Hero />
       <Services />
+      <Works />
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
