@@ -159,12 +159,12 @@ export const FeaturedImage = styled.div`
 `;
 
 export const SideColor = styled.div`
-  background-image: url("https://images.unsplash.com/photo-1510674485131-dc88d96369b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=901&q=80");
+  background-image: url("https://images.unsplash.com/photo-1577782545502-63a1850570b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1579&q=80");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 110vh;
-  opacity: 0.4;
+  opacity: 0.8;
   width: 100%;
   position: absolute;
   z-index: -1;
