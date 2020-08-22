@@ -3,3 +3,4 @@ export { default as NavBar } from "./NavBar";
 export { default as Services } from "./Services";
 export { default as Works } from "./Works";
 export { default as NextLevel } from "./NextLevel";
+export { default as Clients } from "./Clients";
