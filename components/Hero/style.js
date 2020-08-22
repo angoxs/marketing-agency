@@ -169,11 +169,10 @@ export const SideColor = styled.div`
   z-index: -1;
   right: 0;
   top: 0;
-  border-bottom-left-radius: 10px;
 
   @media (max-width: 1024px) {
     background-color: #f3f3fd;
     height: 100vh;
-    opacity: 0.5;
+    opacity: 0.4;
   }
 `;
