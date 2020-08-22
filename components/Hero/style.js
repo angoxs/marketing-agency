@@ -173,6 +173,6 @@ export const SideColor = styled.div`
   @media (max-width: 1024px) {
     background-color: #f3f3fd;
     height: 100vh;
-    opacity: 0.4;
+    opacity: 0.3;
   }
 `;
