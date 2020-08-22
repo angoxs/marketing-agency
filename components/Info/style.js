@@ -159,14 +159,14 @@ export const FeaturedImage = styled.div`
 `;
 
 export const SideColor = styled.div`
-  background-image: url("/pexels.jpg");
+  background-image: url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 110vh;
   opacity: 0.8;
   width: 100%;
-  opacity: 0.2;
+  opacity: 0.8;
   position: absolute;
   z-index: -1;
   right: 0;
@@ -176,6 +176,6 @@ export const SideColor = styled.div`
   @media (max-width: 1024px) {
     background-color: #f3f3fd;
     height: 100vh;
-    opacity: 0.4;
+    opacity: 0.2;
   }
 `;
