@@ -32,7 +32,7 @@ export default function Clients() {
           <Quote>
             <Div />
             <Fade up>
-              <Span>DIGITAL CREATIVE AGENCY</Span>
+              <Span>OUR FEATURED CLIENTS</Span>
             </Fade>
           </Quote>
         </TitleGroup>
