@@ -158,13 +158,13 @@ export const FeaturedImage = styled.div`
 `;
 
 export const SideColor = styled.div`
-  /* background-image: url("https://images.unsplash.com/photo-1586766924681-d3474262ceea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80");
+  background-image: url("https://images.unsplash.com/photo-1531185964465-47a4e9b1b4f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   height: 110vh;
-  background-color: blue;
-  width: 40%;
+  background-color: black;
+  width: 100%;
   position: absolute;
   z-index: -1;
   right: 0;

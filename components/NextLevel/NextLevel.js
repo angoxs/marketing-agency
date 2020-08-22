@@ -20,7 +20,6 @@ export default function NextLevel() {
       <SideColor />
 
       <Main>
-        <div />
         <TitleContainer>
           <Welcome>
             <Fade up>
@@ -41,6 +40,7 @@ export default function NextLevel() {
             <Button>Contact</Button>
           </ButtonGroup>
         </TitleContainer>
+        <div />
       </Main>
     </Container>
   );

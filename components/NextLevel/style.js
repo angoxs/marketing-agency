@@ -18,7 +18,7 @@ export const Container = styled.div`
 `;
 export const Main = styled.div`
   display: grid;
-  grid-template-columns: 0.85fr 1fr;
+  grid-template-columns: 1fr 0.85fr;
   align-items: center;
   justify-content: stretch;
   grid-gap: 60px;
@@ -159,22 +159,22 @@ export const FeaturedImage = styled.div`
 `;
 
 export const SideColor = styled.div`
-  background-image: url("https://images.unsplash.com/photo-1585496435563-73bb9c679a56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80");
+  background-image: url("https://images.unsplash.com/photo-1531185964465-47a4e9b1b4f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 110vh;
-  background-color: blue;
-  width: 40%;
+  background-color: black;
+  width: 100%;
   position: absolute;
   z-index: -1;
-  left: 0;
+  right: 0;
   margin-top: -180px;
   border-bottom-right-radius: 10px;
 
   @media (max-width: 1024px) {
     background-color: #f3f3fd;
     height: 100vh;
-    opacity: 0.5;
+    opacity: 0.4;
   }
 `;

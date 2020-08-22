@@ -41,7 +41,7 @@ export default function Hero() {
             <Button id="secondButton">Demo</Button>
           </ButtonGroup>
         </TitleContainer>
-        <FeaturedImage />
+        <div />
       </Main>
     </Container>
   );
