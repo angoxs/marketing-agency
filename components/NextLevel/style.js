@@ -18,7 +18,7 @@ export const Container = styled.div`
 `;
 export const Main = styled.div`
   display: grid;
-  grid-template-columns: 1fr 0.85fr;
+  grid-template-columns: 0.85fr 1fr;
   align-items: center;
   justify-content: stretch;
   grid-gap: 60px;
@@ -159,16 +159,16 @@ export const FeaturedImage = styled.div`
 `;
 
 export const SideColor = styled.div`
-  background-image: url("https://images.unsplash.com/photo-1531185964465-47a4e9b1b4f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
+  background-image: url("https://images.unsplash.com/photo-1510674485131-dc88d96369b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=901&q=80");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 110vh;
-  background-color: black;
+  opacity: 0.4;
   width: 100%;
   position: absolute;
   z-index: -1;
-  right: 0;
+  left: 0;
   margin-top: -180px;
   border-bottom-right-radius: 10px;
 
