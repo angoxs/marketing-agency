@@ -24,12 +24,12 @@ export default function Info() {
           <Welcome>
             <Fade up>
               <Div />
-              <Span>POWERFUL FEATURES</Span>
+              <Span>INFO</Span>
             </Fade>
           </Welcome>
 
           <Fade>
-            <Title>Take your company to the next level</Title>
+            <Title>Get ready to conquer the world again</Title>
           </Fade>
           <Subtitle>
             Every story we tell, every brand we build, and every interaction we
