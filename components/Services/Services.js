@@ -20,7 +20,7 @@ export default function Services() {
         <TitleGroup>
           <TitleContainer>
             <Fade up>
-              <Title>A Brand-first Creative Agency</Title>
+              <Title>A brand focused agency</Title>
               <Subtitle>
                 Every story we tell, every brand we build, and every interaction
                 we create must not only look beautiful but has to feel and

@@ -24,7 +24,7 @@ export default function Hero() {
           <Welcome>
             <Fade up>
               <Div />
-              <Span>WELCOME</Span>
+              <Span>VOXXER</Span>
             </Fade>
           </Welcome>
 

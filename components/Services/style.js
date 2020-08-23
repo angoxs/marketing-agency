@@ -51,7 +51,7 @@ export const Title = styled.h2`
   }
 
   @media (max-width: 900px) {
-    font-size: 32px;
+    font-size: 36px;
   }
 `;
 export const Subtitle = styled.p`

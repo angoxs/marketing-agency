@@ -42,6 +42,10 @@ export const Title = styled.h1`
   @media (max-width: 900px) {
     font-size: 44px;
   }
+
+  @media (max-width: 675px) {
+    font-size: 36px;
+  }
 `;
 export const Subtitle = styled.p`
   font-size: 26px;
@@ -84,8 +88,8 @@ export const Button = styled.button`
   }
 `;
 export const TitleContainer = styled.div`
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: repeat(4, auto);
 
   #secondButton {
     background: #e7e7ff;
@@ -132,7 +136,7 @@ export const Div = styled.div`
   background-color: blue;
 `;
 export const Span = styled.span`
-  font-size: 14px;
+  font-size: 12px;
   color: blue;
   margin-left: 10px;
   font-weight: bold;
