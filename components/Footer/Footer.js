@@ -27,7 +27,7 @@ export default function Footer() {
           <Text>Company</Text>
           <Text>About</Text>
           <Text>
-            Careers <span>- We're hiring</span>
+            Careers <span>- We're hiring!</span>
           </Text>
         </ThirdGroup>
         <Button>
