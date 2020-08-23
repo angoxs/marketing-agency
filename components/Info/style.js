@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  padding: 90px 30px;
+  padding: 90px 30px 310px 30px;
   min-height: 100vh;
   z-index: 1;
 
@@ -25,8 +25,12 @@ export const Main = styled.div`
 
   @media (max-width: 1024px) {
     grid-template-columns: 1fr;
+    .div {
+      display: none;
+    }
   }
 `;
+
 export const Title = styled.h1`
   font-size: 44px;
   font-weight: bold;
@@ -170,7 +174,7 @@ export const SideColor = styled.div`
   position: absolute;
   z-index: -1;
   right: 0;
-  margin-top: -180px;
+  margin-top: -100px;
   border-bottom-right-radius: 10px;
 
   @media (max-width: 1024px) {
