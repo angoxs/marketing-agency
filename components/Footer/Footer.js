@@ -12,7 +12,7 @@ export default function Footer() {
   return (
     <Container>
       <Grid>
-        <Text>Voxxer</Text>
+        <img src="/Icons/qualcomm.svg" width="44px" />
         <FirstGroup>
           <Text>Platform</Text>
           <Text>Help Center</Text>
@@ -24,13 +24,16 @@ export default function Footer() {
           <Text>Customer Stories</Text>
         </SecondGroup>
         <ThirdGroup>
-          <Text>company</Text>
+          <Text>Company</Text>
           <Text>About</Text>
           <Text>
             Careers <span>- We're hiring</span>
           </Text>
         </ThirdGroup>
-        <Button>Apply</Button>
+        <Button>
+          {" "}
+          <a href="https://twitter.com/angelVZUR">Apply</a>
+        </Button>
       </Grid>
     </Container>
   );

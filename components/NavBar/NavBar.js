@@ -10,7 +10,7 @@ export default function NavBar() {
     <Container>
       <Logo>
         <Link href="/">
-          <a>Ángel Vāzquez</a>
+          <img src="/Icons/qualcomm-2.svg" width="34px" />
         </Link>
       </Logo>
 

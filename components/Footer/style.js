@@ -12,7 +12,6 @@ export const Container = styled.div`
 export const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(5, auto);
-  align-items: stretch;
   justify-content: stretch;
 
   @media (max-width: 990px) {
@@ -27,6 +26,11 @@ export const Grid = styled.div`
   @media (max-width: 375px) {
     grid-template-columns: repeat(2, auto);
     grid-gap: 20px;
+  }
+
+  // logo
+  img {
+    align-self: flex-start;
   }
 `;
 
@@ -69,7 +73,7 @@ export const Button = styled.button`
   background: white;
   border-radius: 6px;
   cursor: pointer;
-  max-width: 220px;
+  max-width: 260px;
   max-height: 50px;
 
   @media (max-width: 990px) {
