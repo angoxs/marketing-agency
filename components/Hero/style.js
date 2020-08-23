@@ -129,6 +129,7 @@ export const ButtonGroup = styled.div`
 `;
 export const Welcome = styled.div`
   display: flex;
+  justify-content: row;
   align-items: center;
   justify-content: center;
   max-width: 120px;
@@ -146,6 +147,7 @@ export const Span = styled.span`
   color: blue;
   margin-left: 10px;
   font-weight: bold;
+  margin-top: 0;
 `;
 
 export const FeaturedImage = styled.div`
