@@ -78,6 +78,7 @@ export const Quote = styled.div`
     justify-content: flex-start;
   }
 `;
+
 export const Div = styled.div`
   height: 2px;
   width: 80px;

@@ -50,8 +50,9 @@ export const Title = styled.h1`
   }
 `;
 export const Subtitle = styled.p`
-  font-size: 26px;
+  font-size: 24px;
   line-height: 1.4em;
+
   color: ${({ theme }) => theme.subHeading};
 
   @media (max-width: 1024px) {
@@ -62,6 +63,7 @@ export const Subtitle = styled.p`
     font-size: 18px;
   }
 `;
+
 export const Button = styled.button`
   padding: 15px 30px;
   color: white;
@@ -126,17 +128,20 @@ export const ButtonGroup = styled.div`
     max-width: 350px;
   }
 `;
+
 export const Welcome = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-start;
 `;
+
 export const Div = styled.div`
   height: 2px;
   width: 80px;
   border-radius: 2px;
   background-color: #8f87d8;
 `;
+
 export const Span = styled.span`
   font-size: 12px;
   color: blue;
