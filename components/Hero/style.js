@@ -49,6 +49,7 @@ export const Title = styled.h1`
     font-size: 36px;
   }
 `;
+
 export const Subtitle = styled.p`
   font-size: 26px;
   line-height: 1.4em;
@@ -129,14 +130,17 @@ export const ButtonGroup = styled.div`
 export const Welcome = styled.div`
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
+  max-width: 120px;
 `;
+
 export const Div = styled.div`
   height: 5px;
   width: 35px;
   border-radius: 2px;
   background-color: blue;
 `;
+
 export const Span = styled.span`
   font-size: 12px;
   color: blue;

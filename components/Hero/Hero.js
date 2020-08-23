@@ -13,6 +13,7 @@ import {
   ButtonGroup,
 } from "./style";
 import Fade from "react-reveal/Fade";
+import UncontrolledLottie from "./Lottie";
 
 export default function Hero() {
   return (
@@ -23,7 +24,7 @@ export default function Hero() {
         <TitleContainer>
           <Welcome>
             <Fade up>
-              <Div />
+              <UncontrolledLottie />
               <Span>VOXXER</Span>
             </Fade>
           </Welcome>
