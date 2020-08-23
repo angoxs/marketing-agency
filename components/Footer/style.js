@@ -65,6 +65,8 @@ export const Button = styled.button`
   background: white;
   border-radius: 6px;
   cursor: pointer;
+  max-width: 220px;
+  max-height: 50px;
 
   @media (max-width: 990px) {
     display: none;
