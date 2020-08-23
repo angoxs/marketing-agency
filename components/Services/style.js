@@ -79,10 +79,10 @@ export const Quote = styled.div`
   }
 `;
 export const Div = styled.div`
-  height: 5px;
-  width: 35px;
+  height: 2px;
+  width: 80px;
   border-radius: 2px;
-  background-color: blue;
+  background-color: #8f87d8;
 `;
 export const Span = styled.span`
   font-size: 14px;

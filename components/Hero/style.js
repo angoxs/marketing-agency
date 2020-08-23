@@ -16,6 +16,7 @@ export const Container = styled.div`
     padding: 60px 20px;
   }
 `;
+
 export const Main = styled.div`
   display: grid;
   grid-template-columns: 1fr 0.85fr;
@@ -27,12 +28,13 @@ export const Main = styled.div`
     grid-template-columns: 1fr;
   }
 `;
+
 export const Title = styled.h1`
   font-size: 60px;
   font-weight: bold;
   line-height: 125%;
   color: ${({ theme }) => theme.heading};
-  margin: 0;
+
   margin-top: 10px;
 
   @media (max-width: 1024px) {
@@ -130,10 +132,10 @@ export const Welcome = styled.div`
   justify-content: flex-start;
 `;
 export const Div = styled.div`
-  height: 5px;
-  width: 35px;
+  height: 2px;
+  width: 80px;
   border-radius: 2px;
-  background-color: blue;
+  background-color: #8f87d8;
 `;
 export const Span = styled.span`
   font-size: 12px;
