@@ -5,3 +5,4 @@ export { default as Works } from "./Works";
 export { default as NextLevel } from "./NextLevel";
 export { default as Clients } from "./Clients";
 export { default as FooterClip } from "./FooterClip";
+export { default as Footer } from "./Footer";
