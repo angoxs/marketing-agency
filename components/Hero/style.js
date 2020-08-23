@@ -34,7 +34,7 @@ export const Title = styled.h1`
   font-weight: bold;
   line-height: 125%;
   color: ${({ theme }) => theme.heading};
-
+  margin: 0;
   margin-top: 10px;
 
   @media (max-width: 1024px) {
@@ -50,9 +50,8 @@ export const Title = styled.h1`
   }
 `;
 export const Subtitle = styled.p`
-  font-size: 24px;
+  font-size: 26px;
   line-height: 1.4em;
-
   color: ${({ theme }) => theme.subHeading};
 
   @media (max-width: 1024px) {
@@ -63,7 +62,6 @@ export const Subtitle = styled.p`
     font-size: 18px;
   }
 `;
-
 export const Button = styled.button`
   padding: 15px 30px;
   color: white;
@@ -128,20 +126,17 @@ export const ButtonGroup = styled.div`
     max-width: 350px;
   }
 `;
-
 export const Welcome = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-start;
 `;
-
 export const Div = styled.div`
-  height: 2px;
-  width: 80px;
+  height: 5px;
+  width: 35px;
   border-radius: 2px;
-  background-color: #8f87d8;
+  background-color: blue;
 `;
-
 export const Span = styled.span`
   font-size: 12px;
   color: blue;

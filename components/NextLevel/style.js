@@ -46,7 +46,7 @@ export const Title = styled.h1`
 export const Subtitle = styled.p`
   font-size: 22px;
   line-height: 1.4em;
-  color: ${({ theme }) => theme.subHeading};
+  color: #57577d;
 
   @media (max-width: 1024px) {
     font-size: 20px;
@@ -59,7 +59,7 @@ export const Subtitle = styled.p`
 export const Button = styled.button`
   padding: 15px 30px;
   color: white;
-  background: ${({ theme }) => theme.accent};
+  background: blue;
   border: none;
   cursor: pointer;
   border-radius: 8px;

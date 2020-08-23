@@ -51,7 +51,7 @@ export const Title = styled.h2`
   }
 
   @media (max-width: 900px) {
-    font-size: 36px;
+    font-size: 32px;
   }
 `;
 export const Subtitle = styled.p`
@@ -78,12 +78,11 @@ export const Quote = styled.div`
     justify-content: flex-start;
   }
 `;
-
 export const Div = styled.div`
-  height: 2px;
-  width: 80px;
+  height: 5px;
+  width: 35px;
   border-radius: 2px;
-  background-color: #8f87d8;
+  background-color: blue;
 `;
 export const Span = styled.span`
   font-size: 14px;

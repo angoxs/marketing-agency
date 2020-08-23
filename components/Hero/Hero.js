@@ -21,14 +21,16 @@ export default function Hero() {
 
       <Main>
         <TitleContainer>
-          <Fade>
-            <Title>We make digital beautiful</Title>
-          </Fade>
           <Welcome>
             <Fade up>
               <Div />
+              <Span>VOXXER</Span>
             </Fade>
           </Welcome>
+
+          <Fade>
+            <Title>We make digital beautiful</Title>
+          </Fade>
           <Subtitle>
             Every story we tell, every brand we build, and every interaction we
             create must not only look beautiful but has to feel and function
