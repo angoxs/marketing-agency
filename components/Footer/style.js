@@ -29,20 +29,28 @@ export const Grid = styled.div`
 export const FirstGroup = styled.div`
   display: grid;
   grid-template-rows: repeat(3, auto);
+  grid-gap: 10px;
 `;
 export const SecondGroup = styled.div`
   display: grid;
   grid-template-rows: repeat(3, auto);
+  grid-gap: 10px;
 `;
 
 export const ThirdGroup = styled.div`
   display: grid;
   grid-template-rows: repeat(3, auto);
+  grid-gap: 10px;
 `;
 
 export const Text = styled.a`
   color: white;
   font-size: 14px;
+
+  span {
+    font-weight: bold;
+    color: yellow;
+  }
 
   @media (max-width: 675px) {
     font-size: 14px;
