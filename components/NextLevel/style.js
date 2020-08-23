@@ -32,6 +32,7 @@ export const Title = styled.h1`
   font-weight: bold;
   line-height: 125%;
   margin: 0;
+  color: ${({ theme }) => theme.heading};
   margin-top: 10px;
 
   @media (max-width: 1024px) {
@@ -45,7 +46,7 @@ export const Title = styled.h1`
 export const Subtitle = styled.p`
   font-size: 22px;
   line-height: 1.4em;
-  color: #57577d;
+  color: ${({ theme }) => theme.subHeading};
 
   @media (max-width: 1024px) {
     font-size: 20px;
@@ -58,7 +59,7 @@ export const Subtitle = styled.p`
 export const Button = styled.button`
   padding: 15px 30px;
   color: white;
-  background: blue;
+  background: ${({ theme }) => theme.accent};
   border: none;
   cursor: pointer;
   border-radius: 8px;

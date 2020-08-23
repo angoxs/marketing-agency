@@ -42,7 +42,8 @@ const Button = styled.button`
   padding: 8px 18px;
   border: none;
   cursor: pointer;
-  background: blue;
+  background: ${({ theme }) => theme.accent};
+
   color: white;
   border-radius: 4px;
   font-weight: bold;

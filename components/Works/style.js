@@ -29,6 +29,7 @@ export const Title = styled.div`
   font-weight: bold;
   line-height: 125%;
   margin: 0;
+  color: ${({ theme }) => theme.heading};
   margin-bottom: 20px;
 
   @media (max-width: 675px) {

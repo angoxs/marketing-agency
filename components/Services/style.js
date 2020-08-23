@@ -44,6 +44,7 @@ export const Title = styled.h2`
   margin: 0;
   margin-bottom: 10px;
   max-width: 500px;
+  color: ${({ theme }) => theme.heading};
 
   @media (max-width: 1024px) {
     font-size: 48px;
@@ -57,7 +58,7 @@ export const Subtitle = styled.p`
   font-size: 22px;
   line-height: 1.4em;
   margin: 0;
-  color: #57577d;
+  color: ${({ theme }) => theme.subHeading};
 
   @media (max-width: 1024px) {
     font-size: 20px;
