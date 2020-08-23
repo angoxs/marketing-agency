@@ -49,7 +49,7 @@ export default function Services() {
             <Service
               image="/Icons/gear.svg"
               title="Application"
-              subtitle="AnytLorem ipsum dolor sit amet, coectetur adipiscing elit."
+              subtitle="Lorem ipsum dolor sit amet, coectetur adipiscing elit."
             />
           </Fade>
           <Fade up>
