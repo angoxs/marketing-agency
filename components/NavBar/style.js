@@ -5,7 +5,7 @@ export const Container = styled.nav`
   display: flex;
   background-color: #fff;
   border-bottom: 1px solid #e7e7ff;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
