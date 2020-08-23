@@ -38,7 +38,7 @@ export default function NextLevel() {
             beautifully, too. Crafted to perfection.
           </Subtitle>
           <ButtonGroup>
-            <Button>Contact</Button>
+            <Button>Learn more</Button>
           </ButtonGroup>
         </TitleContainer>
       </Main>

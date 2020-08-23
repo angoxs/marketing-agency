@@ -7,6 +7,7 @@ import {
   Works,
   NextLevel,
   Clients,
+  FooterClip,
 } from "../components";
 import Info from "../components/Info/Info";
 
@@ -25,6 +26,7 @@ export default function Home() {
       <NextLevel />
       <Clients />
       <Info />
+
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
@@ -35,6 +37,7 @@ export default function Home() {
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
+      <FooterClip />
     </>
   );
 }
