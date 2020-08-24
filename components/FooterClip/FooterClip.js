@@ -5,7 +5,9 @@ export default function FooterClip() {
   return (
     <Container>
       <Clip>
-        <a href="https://twitter.com/angelVZUR">© Ángel Vāzquez</a>
+        <a href="https://twitter.com/angelVZUR">
+          Copyright © 2020 Ángel Vāzquez, Inc. All rights reserved.
+        </a>
         <a href="mailto:angelCL@outlook.com">angelCL0@outlook.com</a>
       </Clip>
     </Container>

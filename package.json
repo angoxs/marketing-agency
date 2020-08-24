@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "formik": "^2.1.5",
     "lottie-react-web": "^2.2.2",
     "next": "9.5.2",
     "react": "16.13.1",

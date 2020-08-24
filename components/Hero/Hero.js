@@ -14,8 +14,11 @@ import {
 } from "./style";
 import Fade from "react-reveal/Fade";
 import UncontrolledLottie from "./Lottie";
+import { useState } from "react";
 
 export default function Hero() {
+  const [scrolled, hasScrolled] = useState(false);
+
   return (
     <Container>
       <SideColor />
