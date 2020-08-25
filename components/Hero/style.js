@@ -118,6 +118,19 @@ export const ButtonGroup = styled.div`
   grid-gap: 10px;
   max-width: 420px;
 
+  p {
+    font-size: 14px;
+    color: ${({ theme }) => theme.subHeading};
+
+    span {
+      background: darkBlue;
+      padding: 5px;
+      color: white;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+  }
+
   @media (max-width: 1024px) {
     max-width: 350px;
   }

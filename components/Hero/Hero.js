@@ -17,7 +17,12 @@ import UncontrolledLottie from "./Lottie";
 import { useState } from "react";
 
 export default function Hero() {
-  const [scrolled, hasScrolled] = useState(false);
+  const [count, setCount] = useState(0);
+
+  function play() {
+    var audio = document.getElementById("a1");
+    audio.play();
+  }
 
   return (
     <Container>
@@ -42,7 +47,19 @@ export default function Hero() {
           </Subtitle>
           <ButtonGroup>
             <Button>Purchase</Button>
-            <Button id="secondButton">Demo</Button>
+            <audio id="a1" src="/Sounds/pop.mp3"></audio>
+            <Button
+              id="secondButton"
+              onClick={() => {
+                play();
+                setCount(count + 1);
+              }}
+            >
+              Click me!
+            </Button>
+            <p>
+              You've clicked <span>{count}</span> times
+            </p>
           </ButtonGroup>
         </TitleContainer>
         <div />
