@@ -4,9 +4,11 @@ const Container = styled.div`
   padding: 20px;
   border: 1px solid #e7e7ff;
   border-radius: 10px;
+  transition: all 200ms ease-in-out;
 
   :hover {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    transform: translateY(-6px);
   }
 `;
 const IMG = styled.img`

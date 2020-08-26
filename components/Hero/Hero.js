@@ -44,10 +44,10 @@ export default function Hero() {
             If the happiness and prosperity of other people depend on you, you
             have nothing to fear anymore.
           </Subtitle>
-          <Button>Request A Demo</Button>
 
           <ButtonGroup>
-            {/* <audio id="a1" src="/Sounds/pop.mp3"></audio>
+            <Button>Request A Demo</Button>
+            <audio id="a1" src="/Sounds/pop.mp3"></audio>
             <Button
               id="secondButton"
               onClick={() => {
@@ -55,11 +55,8 @@ export default function Hero() {
                 setCount(count + 1);
               }}
             >
-              Click me!
+              View More
             </Button>
-            <p>
-              You've clicked <span>{count}</span> times
-            </p> */}
           </ButtonGroup>
         </TitleContainer>
         <div />
