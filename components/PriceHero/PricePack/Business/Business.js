@@ -5,9 +5,11 @@ const Container = styled.div`
   border: 1px solid #e7e7ff;
   border-radius: 10px;
   background: blue;
+  transition: all 100ms ease-in;
 
   :hover {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    transform: translateY(-6px);
   }
 `;
 
