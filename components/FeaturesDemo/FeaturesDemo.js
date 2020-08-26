@@ -25,7 +25,9 @@ export default function FeaturesDemo() {
 
   return (
     <Container>
-      <Main />
+      <Fade up>
+        <Main />
+      </Fade>
     </Container>
   );
 }
