@@ -10,3 +10,4 @@ export { default as Footer } from "./Footer";
 // Pricing
 
 export { default as PriceHero } from "./PriceHero";
+export { default as FQA } from "./FQA";

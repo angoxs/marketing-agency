@@ -1,10 +1,11 @@
 import Layout from "../components/Layout";
-import { PriceHero } from "../components";
+import { PriceHero, FQA } from "../components";
 
 export default function pricing() {
   return (
     <Layout>
       <PriceHero />
+      <FQA />
     </Layout>
   );
 }
