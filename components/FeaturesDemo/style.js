@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   padding: 0 30px 90px 30px;
-  z-index: 1;
 
   @media (max-width: 2000px) {
     min-height: 70vh;
@@ -23,4 +22,22 @@ export const Main = styled.div`
   background-repeat: no-repeat;
   height: 70vh;
   border-radius: 10px;
+`;
+
+export const ServiceGrid = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: stretch;
+  width: 100%;
+  grid-gap: 20px;
+  margin-top: 80px;
+
+  @media (max-width: 1024px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: 675px) {
+    grid-template-columns: repeat(1, auto);
+  }
 `;
