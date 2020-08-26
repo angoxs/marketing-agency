@@ -42,7 +42,7 @@ export const Title = styled.h2`
   font-weight: bold;
   line-height: 125%;
   margin: 0;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   max-width: 500px;
   color: ${({ theme }) => theme.heading};
 
