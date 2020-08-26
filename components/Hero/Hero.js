@@ -41,9 +41,8 @@ export default function Hero() {
             <Title>We make digital beautiful</Title>
           </Fade>
           <Subtitle>
-            Every story we tell, every brand we build, and every interaction we
-            create must not only look beautiful but has to feel and function
-            beautifully, too. Crafted to perfection.
+            If the happiness and prosperity of other people depend on you, you
+            have nothing to fear anymore.
           </Subtitle>
           <Button>Request A Demo</Button>
 
