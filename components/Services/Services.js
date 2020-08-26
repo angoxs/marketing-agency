@@ -22,9 +22,10 @@ export default function Services() {
             <Fade up>
               <Title>A brand focused agency</Title>
               <Subtitle>
-                Every story we tell, every brand we build, and every interaction
-                we create must not only look beautiful but has to feel and
-                function beautifully, too. Crafted to perfection.
+                You must understand the following: In order to master a field,
+                you must love the subject and feel a profound connection to it.
+                Your interest must transcend the field itself and border on the
+                religious.
               </Subtitle>
             </Fade>
           </TitleContainer>

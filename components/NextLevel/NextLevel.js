@@ -33,9 +33,9 @@ export default function NextLevel() {
             <Title>Take your company to the next level</Title>
           </Fade>
           <Subtitle>
-            Every story we tell, every brand we build, and every interaction we
-            create must not only look beautiful but has to feel and function
-            beautifully, too. Crafted to perfection.
+            You are like a hunter: your knowledge of every detail of the forest
+            and of the ecosystem as a whole will give you many more options for
+            survival and success.
           </Subtitle>
           <ButtonGroup>
             <Button>Learn more</Button>

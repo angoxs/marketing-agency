@@ -32,9 +32,10 @@ export default function Info() {
             <Title>Get ready to conquer the world again</Title>
           </Fade>
           <Subtitle>
-            Every story we tell, every brand we build, and every interaction we
-            create must not only look beautiful but has to feel and function
-            beautifully, too. Crafted to perfection.
+            Even with skills that are primarily mental, such as computer
+            programming or speaking a foreign language, it remains the case that
+            we learn best through practice and repetition—the natural learning
+            process
           </Subtitle>
           <ButtonGroup>
             <Button>Contact</Button>

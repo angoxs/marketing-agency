@@ -22,9 +22,9 @@ export default function Clients() {
             <Fade up>
               <Title>Amazing Clients</Title>
               <Subtitle>
-                Every story we tell, every brand we build, and every interaction
-                we create must not only look beautiful but has to feel and
-                function beautifully, too. Crafted to perfection.
+                As the great physicist Max Planck put it, scientists “must have
+                a vivid intuitive imagination, for new ideas are not generated
+                by deduction, but by an artistically creative imagination.
               </Subtitle>
             </Fade>
           </TitleContainer>
