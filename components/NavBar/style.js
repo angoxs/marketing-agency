@@ -25,6 +25,12 @@ export const Container = styled.nav`
     left: 0;
     padding: 20px;
   }
+
+  span {
+    font-size: 16px;
+    font-weight: bold;
+    color: blue;
+  }
 `;
 
 export const NavBox = styled.div`
