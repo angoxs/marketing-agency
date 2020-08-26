@@ -9,10 +9,10 @@ export const Container = styled.div`
   }
 
   @media (max-width: 1024px) {
-    padding: 0 30px 50px 20px;
+    padding: 0 20px 50px 20px;
   }
   @media (max-width: 900px) {
-    padding: 0 30px 20px 20px;
+    padding: 0 20px 20px 20px;
   }
 `;
 
