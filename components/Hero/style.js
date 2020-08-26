@@ -91,8 +91,9 @@ export const Button = styled.button`
 `;
 
 export const TitleContainer = styled.div`
-  display: grid;
-  grid-template-rows: repeat(4, auto);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 
   #secondButton {
     background: #e7e7ff;

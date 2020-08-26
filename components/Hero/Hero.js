@@ -45,8 +45,9 @@ export default function Hero() {
             create must not only look beautiful but has to feel and function
             beautifully, too. Crafted to perfection.
           </Subtitle>
+          <Button>Request A Demo</Button>
+
           <ButtonGroup>
-            <Button>Request A Demo</Button>
             {/* <audio id="a1" src="/Sounds/pop.mp3"></audio>
             <Button
               id="secondButton"
