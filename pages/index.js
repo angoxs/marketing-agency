@@ -12,11 +12,11 @@ import {
 } from "../components";
 import Info from "../components/Info/Info";
 import Basic from "../components/Basic";
+import Layout from "../components/Layout";
 
 export default function Home() {
   return (
-    <>
-      <NavBar />
+    <Layout>
       <Head>
         <title>Voxxer</title>
         <link rel="icon" href="/favicon.ico" />
@@ -28,8 +28,6 @@ export default function Home() {
       <NextLevel />
       <Clients />
       <Info />
-      <Footer />
-      <FooterClip />
 
       {/* <footer className={styles.footer}>
         <a
@@ -40,6 +38,6 @@ export default function Home() {
           Vercel 🖤
         </a>
       </footer> */}
-    </>
+    </Layout>
   );
 }

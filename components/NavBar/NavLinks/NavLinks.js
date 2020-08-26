@@ -52,17 +52,17 @@ const Button = styled.button`
 export default function NavLinks() {
   return (
     <>
-      <NavItem href="/design">
+      <NavItem href="/">
         <a>Home</a>
       </NavItem>
-      <NavItem href="/code">
-        <a>Works</a>
+      <NavItem href="/pricing">
+        <a>Pricing</a>
       </NavItem>
       <NavItem href="/templates">
         <a>Clients</a>
       </NavItem>
       <NavItem href="/inspiration">
-        <a>About</a>
+        <a>About Us</a>
       </NavItem>
       <a href="mailto:angelCL0@outlook.com">
         <Button>Contact</Button>

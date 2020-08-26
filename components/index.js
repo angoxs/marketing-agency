@@ -6,3 +6,7 @@ export { default as NextLevel } from "./NextLevel";
 export { default as Clients } from "./Clients";
 export { default as FooterClip } from "./FooterClip";
 export { default as Footer } from "./Footer";
+
+// Pricing
+
+export { default as PriceHero } from "./PriceHero";

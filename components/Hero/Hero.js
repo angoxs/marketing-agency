@@ -46,7 +46,7 @@ export default function Hero() {
             beautifully, too. Crafted to perfection.
           </Subtitle>
           <ButtonGroup>
-            <Button>Purchase</Button>
+            <Button>Request A Demo</Button>
             <audio id="a1" src="/Sounds/pop.mp3"></audio>
             <Button
               id="secondButton"

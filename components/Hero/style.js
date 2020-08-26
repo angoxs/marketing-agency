@@ -36,7 +36,7 @@ export const Title = styled.h1`
   color: ${({ theme }) => theme.heading};
   margin: 0;
   margin-top: 10px;
-  \ @media (max-width: 1024px) {
+  @media (max-width: 1024px) {
     font-size: 54px;
   }
 
@@ -62,11 +62,11 @@ export const Subtitle = styled.p`
     font-size: 18px;
   }
 `;
+
 export const Button = styled.button`
   padding: 15px 30px;
   color: white;
   background: ${({ theme }) => theme.accent};
-
   border: none;
   cursor: pointer;
   border-radius: 8px;
@@ -89,6 +89,7 @@ export const Button = styled.button`
     padding: 12px 25px;
   }
 `;
+
 export const TitleContainer = styled.div`
   display: grid;
   grid-template-rows: repeat(4, auto);
