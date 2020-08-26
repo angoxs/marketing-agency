@@ -4,12 +4,18 @@ const Container = styled.div`
   padding: 20px;
   border: 1px solid #e7e7ff;
   border-radius: 10px;
+  background: blue;
 
   :hover {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
   }
 `;
-const Span = styled.span``;
+
+const Span = styled.span`
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+`;
 
 const Title = styled.h3`
   font-size: 44px;
@@ -17,6 +23,7 @@ const Title = styled.h3`
   margin-top: 20px;
   line-height: 125%;
   font-weight: bold;
+  color: white;
 
   @media (max-width: 900px) {
     font-size: 32px;
@@ -26,7 +33,7 @@ const Title = styled.h3`
 const Subtitle = styled.p`
   font-size: 18px;
   line-height: 1.4em;
-  color: #57577d;
+  color: rgba(255, 255, 255, 0.7);
 
   @media (max-width: 900px) {
     font-size: 16px;
@@ -35,7 +42,7 @@ const Subtitle = styled.p`
 
 const MO = styled.p`
   font-size: 12px;
-  color: #57577d;
+  color: rgba(255, 255, 255, 0.8);
   font-weight: 600;
 `;
 

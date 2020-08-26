@@ -9,8 +9,11 @@ const Container = styled.div`
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
   }
 `;
+
 const Span = styled.span`
   font-size: 16px;
+  color: blue;
+  font-weight: 600;
 `;
 
 const Title = styled.h3`
