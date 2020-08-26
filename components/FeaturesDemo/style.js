@@ -30,7 +30,7 @@ export const ServiceGrid = styled.div`
   align-items: center;
   justify-content: stretch;
   width: 100%;
-  grid-gap: 20px;
+  grid-gap: 60px;
   margin-top: 80px;
 
   @media (max-width: 1024px) {
