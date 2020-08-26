@@ -99,7 +99,7 @@ export const Span = styled.span`
 
 export const ServiceGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
   justify-content: stretch;
   width: 100%;
@@ -107,10 +107,10 @@ export const ServiceGrid = styled.div`
   margin-top: 50px;
 
   @media (max-width: 1024px) {
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: 1fr 1fr;
   }
 
   @media (max-width: 675px) {
-    grid-template-columns: repeat(1, auto);
+    grid-template-columns: 1fr;
   }
 `;
