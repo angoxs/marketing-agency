@@ -34,15 +34,17 @@ export const TitleGroup = styled.div`
     grid-gap: 20px;
   }
 `;
+
 export const TitleContainer = styled.div`
   max-width: 800px;
 `;
+
 export const Title = styled.h2`
   font-size: 52px;
   font-weight: bold;
   line-height: 125%;
   margin: 0;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   max-width: 500px;
   color: ${({ theme }) => theme.heading};
 

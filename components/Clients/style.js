@@ -44,7 +44,7 @@ export const Title = styled.h2`
   color: ${({ theme }) => theme.heading};
 
   margin: 0;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   max-width: 500px;
 
   @media (max-width: 1024px) {
@@ -55,6 +55,7 @@ export const Title = styled.h2`
     font-size: 32px;
   }
 `;
+
 export const Subtitle = styled.p`
   font-size: 22px;
   line-height: 1.4em;
