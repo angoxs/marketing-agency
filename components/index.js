@@ -10,6 +10,7 @@ export { default as FQA } from "./FQA";
 
 // Features
 export { default as FeaturesHero } from "./FeaturesHero";
+export { default as FeaturesDemo } from "./FeaturesDemo";
 
 // About Us
 export { default as AboutHero } from "./AboutHero";
