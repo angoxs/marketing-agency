@@ -46,7 +46,7 @@ export default function Hero() {
           </Subtitle>
 
           <ButtonGroup>
-            <Button>Request A Demo</Button>
+            <Button>Demo</Button>
             <audio id="a1" src="/Sounds/pop.mp3"></audio>
             <Button
               id="secondButton"
