@@ -19,7 +19,7 @@ export default function AboutHero() {
         <TitleGroup>
           <TitleContainer>
             <Fade up>
-              <Title>Customers are our #1 priority</Title>
+              <Title>Customers are always first</Title>
               <Subtitle>
                 Mastery is not a function of genius or talent, it is a function
                 of time and intense focus applied to a particular field of

@@ -14,3 +14,4 @@ export { default as FeaturesDemo } from "./FeaturesDemo";
 
 // About Us
 export { default as AboutHero } from "./AboutHero";
+export { default as AboutDemo } from "./AboutDemo";
