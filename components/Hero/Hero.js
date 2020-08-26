@@ -47,7 +47,7 @@ export default function Hero() {
           </Subtitle>
           <ButtonGroup>
             <Button>Request A Demo</Button>
-            <audio id="a1" src="/Sounds/pop.mp3"></audio>
+            {/* <audio id="a1" src="/Sounds/pop.mp3"></audio>
             <Button
               id="secondButton"
               onClick={() => {
@@ -59,7 +59,7 @@ export default function Hero() {
             </Button>
             <p>
               You've clicked <span>{count}</span> times
-            </p>
+            </p> */}
           </ButtonGroup>
         </TitleContainer>
         <div />
