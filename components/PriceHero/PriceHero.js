@@ -12,6 +12,9 @@ import {
 } from "./style";
 import Fade from "react-reveal/Fade";
 // import Service from "./Service";
+import Starter from "./PricePack/Starter";
+import Business from "./PricePack/Business";
+import Premium from "./PricePack/Premium";
 
 export default function PriceHero() {
   return (
@@ -36,36 +39,32 @@ export default function PriceHero() {
           </Quote>
         </TitleGroup>
 
-        {/* <ServiceGrid>
+        <ServiceGrid>
           <Fade up>
-            <Service
-              image="/Icons/monitor.svg"
-              title="Design"
-              subtitle="Lorem ipsum dolor sit amet, coectetur adipiscing elit."
+            <Starter
+              plan="Starter"
+              title="$15/mo"
+              mo="MONTHLY"
+              subtitle="The future belongs to those who learn more skills and combine them in creative ways."
             />
           </Fade>
           <Fade up>
-            <Service
-              image="/Icons/gear.svg"
-              title="Application"
-              subtitle="Lorem ipsum dolor sit amet, coectetur adipiscing elit."
+            <Business
+              plan="Business"
+              title="$40/mo"
+              mo="MONTHLY"
+              subtitle="The future belongs to those who learn more skills and combine them in creative ways."
             />
           </Fade>
           <Fade up>
-            <Service
-              image="/Icons/supermarket.svg"
-              title="Ecommerce"
-              subtitle="Lorem ipsum dolor sit amet, coectetur adipiscing elit."
+            <Premium
+              plan="Premium"
+              title="$70/mo"
+              mo="MONTHLY"
+              subtitle="The future belongs to those who learn more skills and combine them in creative ways."
             />
           </Fade>
-          <Fade up>
-            <Service
-              image="/Icons/speaker.svg"
-              title="Smooth Interactions"
-              subtitle="Lorem ipsum dolor sit amet, coectetur adipiscing elit."
-            />
-          </Fade>
-        </ServiceGrid> */}
+        </ServiceGrid>
       </Main>
     </Container>
   );
