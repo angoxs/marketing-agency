@@ -9,13 +9,7 @@ const Container = styled.div`
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
   }
 `;
-const IMG = styled.img`
-  width: 44px;
 
-  @media (max-width: 1024px) {
-    width: 34px;
-  }
-`;
 const Title = styled.h3`
   font-size: 24px;
   margin: 0;
@@ -27,6 +21,7 @@ const Title = styled.h3`
     font-size: 18px;
   }
 `;
+
 const Subtitle = styled.p`
   font-size: 18px;
   line-height: 1.4em;
@@ -36,6 +31,7 @@ const Subtitle = styled.p`
     font-size: 14px;
   }
 `;
+
 const Button = styled.button`
   padding: 8px 18px;
   font-size: 16px;

@@ -59,7 +59,7 @@ export default function NavLinks() {
         <a>Pricing</a>
       </NavItem>
       <NavItem href="/templates">
-        <a>Clients</a>
+        <a>Features</a>
       </NavItem>
       <NavItem href="/inspiration">
         <a>About Us</a>
