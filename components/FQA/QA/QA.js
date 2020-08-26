@@ -5,12 +5,8 @@ const Container = styled.div`
   border: 1px solid #e7e7ff;
   border-radius: 10px;
 
-  :hover,
-  Title:hover,
-  Subtitle:hover {
+  :hover {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-    background: blue;
-    color: white;
   }
 `;
 
@@ -29,6 +25,7 @@ const Title = styled.h3`
 const Subtitle = styled.p`
   font-size: 18px;
   line-height: 1.4em;
+  color: #57577d;
 
   @media (max-width: 900px) {
     font-size: 14px;
