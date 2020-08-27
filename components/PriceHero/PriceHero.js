@@ -43,7 +43,7 @@ export default function PriceHero() {
           <Fade up>
             <Starter
               plan="Starter"
-              title="$15/mo"
+              title="$30/mo"
               mo="MONTHLY"
               subtitle="The future belongs to those who learn more skills and combine them in creative ways."
             />
@@ -51,7 +51,7 @@ export default function PriceHero() {
           <Fade up>
             <Business
               plan="Business"
-              title="$40/mo"
+              title="$60/mo"
               mo="MONTHLY"
               subtitle="The future belongs to those who learn more skills and combine them in creative ways."
             />
@@ -59,7 +59,7 @@ export default function PriceHero() {
           <Fade up>
             <Premium
               plan="Premium"
-              title="$70/mo"
+              title="$99/mo"
               mo="MONTHLY"
               subtitle="The future belongs to those who learn more skills and combine them in creative ways."
             />
