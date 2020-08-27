@@ -22,9 +22,8 @@ export default function Clients() {
             <Fade up>
               <Title>Proudly recognised by the best.</Title>
               <Subtitle>
-                As the great physicist Max Planck put it, scientists “must have
-                a vivid intuitive imagination, for new ideas are not generated
-                by deduction, but by an artistically creative imagination.
+                We ensure to provide the best quality posible to make our
+                clients satisfied.
               </Subtitle>
             </Fade>
           </TitleContainer>

@@ -36,10 +36,8 @@ export default function Info() {
             </Title>
           </Fade>
           <Subtitle>
-            Even with skills that are primarily mental, such as computer
-            programming or speaking a foreign language, it remains the case that
-            we learn best through practice and repetition—the natural learning
-            process
+            One of our main focus is to make sure we are delivering content that
+            people and our customers love, That is our primary priorty.
           </Subtitle>
           <ButtonGroup>
             <Link href="/contact">
