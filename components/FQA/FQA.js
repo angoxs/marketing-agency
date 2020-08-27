@@ -20,12 +20,13 @@ export default function FQA() {
         <TitleGroup>
           <TitleContainer>
             <Fade up>
-              <Title>Frequently Questions Asked</Title>
+              <Title>Power in Our People</Title>
               <Subtitle>
-                You must understand the following: In order to master a field,
-                you must love the subject and feel a profound connection to it.
-                Your interest must transcend the field itself and border on the
-                religious.
+                Your project might be a website, an online app, brand or shop.
+                Whatever your idea every project is tackled by our talented
+                full-time team who are all under one roof. They’ll be on-hand at
+                every step to make sure your project runs smoothly from start to
+                finish.
               </Subtitle>
             </Fade>
           </TitleContainer>
@@ -41,39 +42,26 @@ export default function FQA() {
         <ServiceGrid>
           <Fade up>
             <QA
-              title="What benefits do I get?"
-              subtitle="In the future, the great division will be between those who have trained themselves to handle these complexities and those who are overwhelmed by them—those who can acquire skills and discipline their minds and those who are irrevocably distracted by all the media around them and can never focus enough to learn."
+              title="We Talk"
+              subtitle="All great relationships start with a chat. Online or over coffee, there’s no better way of getting to know each other. We’ll listen, offer advice, and present solutions which will help achieve your goals."
             />
           </Fade>
           <Fade up>
             <QA
-              title="Is there a refund policy?"
-              subtitle="it is always best to choose a task that is slightly above you, one that might be considered ambitious on your part. The higher the goal, the more energy you will call up from deep within. You will rise to the challenge because you have to, and will discover creative powers in yourself that you never suspected."
+              title="We Think"
+              subtitle="Strategise, plan, and execute. We create concepts that challenge your ideas and get you thinking differently. We work with you to refine them, leaving you grinning from ear-to-ear."
             />
           </Fade>
           <Fade up>
             <QA
-              title="How long does it take to make an entire website?"
-              subtitle="Real pleasure comes from overcoming challenges, feeling confidence in your abilities, gaining fluency in skills, and experiencing the power this brings. You develop patience. Boredom no longer signals the need for distraction, but rather the need for new challenges to conquer."
+              title="We Create"
+              subtitle="From branding to websites, we craft our designs with flair, care, and attention to detail. We’ve listened, we’ve planned, now we make those ideas a reality."
             />
           </Fade>
           <Fade up>
             <QA
-              title="Can I add more features later on?"
-              subtitle="What separates Masters from others is often something surprisingly simple. Whenever we learn a skill, we frequently reach a point of frustration—what we are learning seems beyond our capabilities. Giving in to these feelings, we unconsciously quit on ourselves before we actually give up."
-            />
-          </Fade>
-          <Fade up>
-            <QA
-              title="What does premium contain?"
-              subtitle="Leonardo was eager to learn all of these skills, but soon he discovered in himself something else: he could not simply do an assignment; he needed to make it something of his own, to invent rather than imitate the Master."
-            />
-          </Fade>
-
-          <Fade up>
-            <QA
-              title="Can I get an example?"
-              subtitle="This means that you move toward challenges that will toughen and improve you, where you will get the most objective feedback on your performance and progress. You do not choose apprenticeships that seem easy and comfortable."
+              title="We Deliver"
+              subtitle="In pixels or on paper, our projects are delivered with the minimum of fuss using a finely tuned process. We keep you posted at every stage, giving you the confidence that we’ll deliver your projects on time, every time."
             />
           </Fade>
         </ServiceGrid>
