@@ -21,12 +21,13 @@ export default function Services() {
         <TitleGroup>
           <TitleContainer>
             <Fade up>
-              <Title>A brand focused agency</Title>
+              <Title>
+                We turn ideas into extraordinary digital products & experiences
+              </Title>
               <Subtitle>
-                You must understand the following: In order to master a field,
-                you must love the subject and feel a profound connection to it.
-                Your interest must transcend the field itself and border on the
-                religious.
+                We work side-by-side with our partners at every stage of growth
+                to venture into new areas, reimagine existing offerings, and
+                develop cultures that thrive.
               </Subtitle>
             </Fade>
           </TitleContainer>
@@ -34,7 +35,7 @@ export default function Services() {
           <Quote>
             <Div />
             <Fade up>
-              <Span>DIGITAL CREATIVE AGENCY</Span>
+              <Span>PROGRESS</Span>
             </Fade>
           </Quote>
         </TitleGroup>
@@ -46,7 +47,7 @@ export default function Services() {
                 <Service
                   image="/Icons/monitor.svg"
                   title="Design"
-                  subtitle="Pay attention and learn the lessons contained in every experience."
+                  subtitle="Design is at the heart of all that we do, drawing on our passion for creativity and award-winning expertise."
                 />
               </Fade>
             </a>
@@ -56,8 +57,8 @@ export default function Services() {
               <Fade up>
                 <Service
                   image="/Icons/gear.svg"
-                  title="Application"
-                  subtitle="The time that leads to mastery is dependent on the intensity of our focus."
+                  title="UX"
+                  subtitle="Great user experiences are vital to building trust and core to our approach in pursuing intuitive function, simplicity and delight."
                 />
               </Fade>
             </a>
@@ -67,8 +68,8 @@ export default function Services() {
               <Fade up>
                 <Service
                   image="/Icons/supermarket.svg"
-                  title="Ecommerce"
-                  subtitle="The greatest test of courage on earth is to bear defeat without losing heart."
+                  title="Development"
+                  subtitle="We architect, build, and deliver robust digital products entirely in-house, backed by our reputation for quality, stability and support."
                 />
               </Fade>
             </a>
@@ -78,8 +79,8 @@ export default function Services() {
               <Fade up>
                 <Service
                   image="/Icons/speaker.svg"
-                  title="Smooth Interactions"
-                  subtitle="Everything that happens to you is a form of instruction if you pay attention."
+                  title="Solutions"
+                  subtitle="We deliver solutions the only way we know how: obsess over detail and quality, collaborate with clients and ensure outstanding service."
                 />
               </Fade>
             </a>

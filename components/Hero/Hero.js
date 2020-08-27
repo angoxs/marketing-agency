@@ -39,11 +39,11 @@ export default function Hero() {
           </Welcome>
 
           <Fade>
-            <Title>We make digital beautiful</Title>
+            <Title>Building the future, together.</Title>
           </Fade>
           <Subtitle>
-            If the happiness and prosperity of other people depend on you, you
-            have nothing to fear anymore.
+            We partner with visionary leaders that are inventing a better,
+            fairer future.
           </Subtitle>
 
           <ButtonGroup>
