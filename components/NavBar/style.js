@@ -105,7 +105,10 @@ export const Hamburger = styled.div`
     top: 10px;
   }
 `;
+
 export const Logo = styled.div`
+  cursor: pointer;
+
   a {
     color: black;
     font-weight: bold;

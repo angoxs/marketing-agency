@@ -23,21 +23,3 @@ export const Main = styled.div`
   height: 70vh;
   border-radius: 10px;
 `;
-
-export const ServiceGrid = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  justify-content: stretch;
-  width: 100%;
-  grid-gap: 60px;
-  margin-top: 80px;
-
-  @media (max-width: 1024px) {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  @media (max-width: 675px) {
-    grid-template-columns: repeat(1, auto);
-  }
-`;

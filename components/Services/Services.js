@@ -43,28 +43,28 @@ export default function Services() {
             <Service
               image="/Icons/monitor.svg"
               title="Design"
-              subtitle="Lorem ipsum dolor sit amet, coectetur adipiscing elit."
+              subtitle="Pay attention and learn the lessons contained in every experience."
             />
           </Fade>
           <Fade up>
             <Service
               image="/Icons/gear.svg"
               title="Application"
-              subtitle="Lorem ipsum dolor sit amet, coectetur adipiscing elit."
+              subtitle="The time that leads to mastery is dependent on the intensity of our focus."
             />
           </Fade>
           <Fade up>
             <Service
               image="/Icons/supermarket.svg"
               title="Ecommerce"
-              subtitle="Lorem ipsum dolor sit amet, coectetur adipiscing elit."
+              subtitle="The greatest test of courage on earth is to bear defeat without losing heart."
             />
           </Fade>
           <Fade up>
             <Service
               image="/Icons/speaker.svg"
               title="Smooth Interactions"
-              subtitle="Lorem ipsum dolor sit amet, coectetur adipiscing elit."
+              subtitle="Everything that happens to you is a form of instruction if you pay attention."
             />
           </Fade>
         </ServiceGrid>

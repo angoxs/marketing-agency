@@ -35,33 +35,6 @@ export default function AboutHero() {
             </Fade>
           </Quote>
         </TitleGroup>
-
-        {/* <ServiceGrid>
-          <Fade up>
-            <Starter
-              plan="Starter"
-              title="$15/mo"
-              mo="MONTHLY"
-              subtitle="The future belongs to those who learn more skills and combine them in creative ways."
-            />
-          </Fade>
-          <Fade up>
-            <Business
-              plan="Business"
-              title="$40/mo"
-              mo="MONTHLY"
-              subtitle="The future belongs to those who learn more skills and combine them in creative ways."
-            />
-          </Fade>
-          <Fade up>
-            <Premium
-              plan="Premium"
-              title="$70/mo"
-              mo="MONTHLY"
-              subtitle="The future belongs to those who learn more skills and combine them in creative ways."
-            />
-          </Fade>
-        </ServiceGrid> */}
       </Main>
     </Container>
   );
