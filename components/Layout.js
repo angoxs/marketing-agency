@@ -33,6 +33,14 @@ export default function Layout({ children }) {
         }}
       />
 
+      <script
+        type="text/javascript"
+        id="hs-script-loader"
+        async
+        defer
+        src="//js.hs-scripts.com/8357088.js"
+      ></script>
+
       <NavBar />
       {children}
       <Footer />
