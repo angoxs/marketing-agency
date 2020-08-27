@@ -20,7 +20,7 @@ export default function Clients() {
         <TitleGroup>
           <TitleContainer>
             <Fade up>
-              <Title>Amazing Clients</Title>
+              <Title>Proudly recognised by the best.</Title>
               <Subtitle>
                 As the great physicist Max Planck put it, scientists “must have
                 a vivid intuitive imagination, for new ideas are not generated

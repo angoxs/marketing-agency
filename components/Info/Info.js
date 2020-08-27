@@ -30,7 +30,10 @@ export default function Info() {
           </Welcome>
 
           <Fade>
-            <Title>Get ready to conquer the world again</Title>
+            <Title>
+              We play to our strengths: Ideating, creating and shipping
+              wonderful things on the internet.
+            </Title>
           </Fade>
           <Subtitle>
             Even with skills that are primarily mental, such as computer

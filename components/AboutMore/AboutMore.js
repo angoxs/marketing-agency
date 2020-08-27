@@ -33,7 +33,8 @@ export default function AboutInfo() {
             <Title>Excel at what we do</Title>
           </Fade>
           <Subtitle>
-          Mistakes and failures are precisely your means of education. They tell you about your own inadequacies. It is hard to find out such things from people, as they are often political with their praise and criticisms. Your failures also permit you to see the flaws of your ideas, which are only revealed in the execution of them.
+            Since 2018 we’ve been working with amazing organisations to create
+            meaningful impact and compelling experiences that deliver results.{" "}
           </Subtitle>
 
           <ButtonGroup>

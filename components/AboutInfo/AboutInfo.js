@@ -32,18 +32,10 @@ export default function AboutInfo() {
             <Title>A bit of our approach</Title>
           </Fade>
           <Subtitle>
-            When it comes to mastering a skill, time is the magic
-            ingredient.Assuming your practice proceeds at a steady level, over
-            days and weeks certain elements of the skill become hardwired.
-            Slowly, the entire skill becomes internalized, part of your nervous
-            system. The mind is no longer mired in the details, but can see the
-            larger picture. It is a miraculous sensation and practice will lead
-            you to that point, no matter the talent level you are born with. The
-            only real impediment to this is yourself and your emotions—boredom,
-            panic,frustration, insecurity. You cannot suppress such
-            emotions—they are normal to the process and are experienced by
-            everyone, including Masters. What you can do is have faith in the
-            process.
+            We're a team of makers, thinkers, explorers and theatre singers. We
+            approach work and play with curiosity and experimentation, using
+            what we learn to create meaningful digital products that connect
+            with people, just like you.
           </Subtitle>
         </TitleContainer>
         <div />

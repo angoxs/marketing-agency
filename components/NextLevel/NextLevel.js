@@ -37,9 +37,9 @@ export default function NextLevel() {
             </Title>
           </Fade>
           <Subtitle>
-            You are like a hunter: your knowledge of every detail of the forest
-            and of the ecosystem as a whole will give you many more options for
-            survival and success.
+            We focus on understanding your brand, audience and business
+            objectives to inform a digital strategy that is geared toward
+            success.
           </Subtitle>
           <ButtonGroup>
             <Link href="/features">
