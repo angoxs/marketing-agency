@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import { AboutHero, AboutDemo, AboutInfo } from "../components";
+import { AboutHero, AboutDemo, AboutInfo, AboutMore } from "../components";
 
 export default function aboutus() {
   return (
@@ -7,6 +7,7 @@ export default function aboutus() {
       <AboutHero />
       <AboutDemo />
       <AboutInfo />
+      <AboutMore />
     </Layout>
   );
 }

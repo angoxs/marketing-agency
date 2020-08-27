@@ -18,7 +18,7 @@ export const Container = styled.div`
 `;
 export const Main = styled.div`
   display: grid;
-  grid-template-columns: 1fr 0.35fr;
+  grid-template-columns: 0.35fr 1fr;
   align-items: center;
   justify-content: stretch;
   grid-gap: 60px;
@@ -88,6 +88,7 @@ export const Button = styled.button`
     padding: 12px 25px;
   }
 `;
+
 export const TitleContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -166,7 +167,7 @@ export const FeaturedImage = styled.div`
 `;
 
 export const SideColor = styled.div`
-  background-image: url("https://images.unsplash.com/photo-1527176930608-09cb256ab504?ixlib=rb-1.2.1&auto=format&fit=crop&w=1653&q=80");
+  background-image: url("https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2548&q=80");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

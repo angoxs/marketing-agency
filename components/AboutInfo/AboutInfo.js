@@ -45,9 +45,6 @@ export default function AboutInfo() {
             everyone, including Masters. What you can do is have faith in the
             process.
           </Subtitle>
-          <ButtonGroup>
-            <Button>Hire Us</Button>
-          </ButtonGroup>
         </TitleContainer>
         <div />
       </Main>
