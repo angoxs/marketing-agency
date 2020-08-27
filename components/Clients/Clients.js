@@ -20,7 +20,7 @@ export default function Clients() {
         <TitleGroup>
           <TitleContainer>
             <Fade up>
-              <Title>Proudly recognised by the best.</Title>
+              <Title>Proudly recognized by the best.</Title>
               <Subtitle>
                 We ensure to provide the best quality posible to make our
                 clients satisfied.
