@@ -21,13 +21,6 @@ export default function Home() {
         <title>Voxxer</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <script
-        type="text/javascript"
-        id="hs-script-loader"
-        async
-        defer
-        src="//js.hs-scripts.com/8357088.js"
-      ></script>
 
       <Hero />
       <Services />

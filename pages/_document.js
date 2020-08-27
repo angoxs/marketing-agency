@@ -18,13 +18,6 @@ export default class MyDocument extends Document {
         styles: (
           <Html lang="en">
             {initialProps.styles}
-            <script
-              type="text/javascript"
-              id="hs-script-loader"
-              async
-              defer
-              src="//js.hs-scripts.com/8357088.js"
-            ></script>
 
             <link rel="shortcut icon" href="/logo/logo.png" />
 
