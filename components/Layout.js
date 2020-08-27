@@ -33,6 +33,7 @@ export default function Layout({ children }) {
         }}
       />
 
+      <NavBar />
       <script
         type="text/javascript"
         id="hs-script-loader"
@@ -40,8 +41,6 @@ export default function Layout({ children }) {
         defer
         src="//js.hs-scripts.com/8357088.js"
       ></script>
-
-      <NavBar />
       {children}
       <Footer />
       <FooterClip />
