@@ -19,11 +19,10 @@ export default function ContactHero() {
         <TitleGroup>
           <TitleContainer>
             <Fade up>
-              <Title>Contact Us</Title>
+              <Title>Let’s create something awesome together</Title>
               <Subtitle>
-                The truth is that creative activity is one that involves the
-                entire self - our emotions, our levels of energy, our
-                characters, and our minds.
+                Discuss your project with Angel to get things started or if you
+                have a quick question use the form below.
               </Subtitle>
             </Fade>
           </TitleContainer>
@@ -31,7 +30,7 @@ export default function ContactHero() {
           <Quote>
             <Div />
             <Fade up>
-              <Span>TRUTH</Span>
+              <Span>CONTACT US</Span>
             </Fade>
           </Quote>
         </TitleGroup>
