@@ -21,7 +21,7 @@ export default function FeaturesDemo() {
           <Demo
             image="https://images.unsplash.com/photo-1493307100940-ac5f30709573?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
             title="UI-X Design"
-            subtitle="Feeling motivated and energized, we can overcome almost anything. Feeling bored and restless, our minds shut off and we become increasingly passive."
+            subtitle="Design is at the heart of all that we do, drawing on our passion for creativity and award-winning expertise."
           />
         </Fade>
 
@@ -29,7 +29,7 @@ export default function FeaturesDemo() {
           <Demo
             image="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
             title="Web & App Development"
-            subtitle="You possess a kind of inner force that seeks to guide you toward your Life’s Task —what you are meant to accomplish in the time that you have to live."
+            subtitle="We architect, build, and deliver robust digital products entirely in-house, backed by our reputation for quality, stability and support."
           />
         </Fade>
 
@@ -37,7 +37,7 @@ export default function FeaturesDemo() {
           <Demo
             image="https://images.unsplash.com/photo-1477013743164-ffc3a5e556da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=1650&q=80"
             title="Marketing"
-            subtitle="Too many people believe that everything must be pleasurable in life, which makes them constantly search for distractions and short-circuits the learning process."
+            subtitle="We deliver solutions the only way we know how: obsess over detail and quality, collaborate with clients and ensure outstanding service."
           />
         </Fade>
 
@@ -45,7 +45,7 @@ export default function FeaturesDemo() {
           <Demo
             image="https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
             title="Technical SEO"
-            subtitle="It is better to dedicate two or three hours of intense focus to a skill than to spend eight hours of diffused concentration on it. You want to be as immediately present to what you are doing as possible."
+            subtitle="Great user experiences are vital to building trust and core to our approach in pursuing intuitive function, simplicity and delight."
           />
         </Fade>
       </ServiceGrid>

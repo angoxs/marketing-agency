@@ -21,8 +21,13 @@ export default function FeaturesHero() {
             <Fade up>
               <Title>We strive for excellence</Title>
               <Subtitle>
-                When it comes to mastering a skill, time is the magic
-                ingredient.
+                At Voxxer we believe that design makes a difference. We’ll build
+                you a brand, a website or a shop; we’ll even help you with your
+                print and promo. Clients come to us for our creativity, but they
+                stay because we can explain the mysteries of their technical
+                needs, without the jargon. We’ll make your lives easier, and in
+                many ways, that’s where you’ll get a real return on your
+                investment.
               </Subtitle>
             </Fade>
           </TitleContainer>
