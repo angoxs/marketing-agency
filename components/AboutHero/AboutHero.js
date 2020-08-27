@@ -19,11 +19,12 @@ export default function AboutHero() {
         <TitleGroup>
           <TitleContainer>
             <Fade up>
-              <Title>Customers are always first</Title>
+              <Title>Our Power is in Our People</Title>
               <Subtitle>
-                Mastery is not a function of genius or talent, it is a function
-                of time and intense focus applied to a particular field of
-                knowledge.
+                We’re honest folk that believe in hard work and building lasting
+                relationships. We enjoy making companies look better with great
+                design and go the extra mile to provide a service that we would
+                like to experience ourselves.
               </Subtitle>
             </Fade>
           </TitleContainer>
@@ -31,7 +32,7 @@ export default function AboutHero() {
           <Quote>
             <Div />
             <Fade up>
-              <Span>PRIORITY</Span>
+              <Span>ABOUT US</Span>
             </Fade>
           </Quote>
         </TitleGroup>
