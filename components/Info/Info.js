@@ -13,6 +13,7 @@ import {
   ButtonGroup,
 } from "./style";
 import Fade from "react-reveal/Fade";
+import Link from "next/link";
 
 export default function Info() {
   return (
@@ -38,7 +39,11 @@ export default function Info() {
             process
           </Subtitle>
           <ButtonGroup>
-            <Button>Contact</Button>
+            <Link href="/contact">
+              <a>
+                <Button>Contact</Button>
+              </a>
+            </Link>
           </ButtonGroup>
         </TitleContainer>
         <div />

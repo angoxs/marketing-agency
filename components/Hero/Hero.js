@@ -15,6 +15,7 @@ import {
 import Fade from "react-reveal/Fade";
 import UncontrolledLottie from "./Lottie";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Hero() {
   const [count, setCount] = useState(0);
@@ -46,17 +47,24 @@ export default function Hero() {
           </Subtitle>
 
           <ButtonGroup>
-            <Button>Demo</Button>
+            <Link href="/contact">
+              <a>
+                <Button>Get Demo</Button>
+              </a>
+            </Link>
             <audio id="a1" src="/Sounds/pop.mp3"></audio>
-            <Button
-              id="secondButton"
-              onClick={() => {
-                play();
-                setCount(count + 1);
-              }}
-            >
-              View More
-            </Button>
+            <Link href="/features">
+              <a>
+                <Button
+                  id="secondButton"
+                  onClick={() => {
+                    setCount(count + 1);
+                  }}
+                >
+                  View More
+                </Button>
+              </a>
+            </Link>
           </ButtonGroup>
         </TitleContainer>
         <div />

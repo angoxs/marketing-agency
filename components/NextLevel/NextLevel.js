@@ -13,6 +13,7 @@ import {
   ButtonGroup,
 } from "./style";
 import Fade from "react-reveal/Fade";
+import Link from 'next/link'
 
 export default function NextLevel() {
   return (
@@ -38,7 +39,13 @@ export default function NextLevel() {
             survival and success.
           </Subtitle>
           <ButtonGroup>
-            <Button>Learn more</Button>
+          <Link href="/features">
+          <a>
+          <Button>Learn more</Button>
+
+          </a>
+
+          </Link>
           </ButtonGroup>
         </TitleContainer>
       </Main>

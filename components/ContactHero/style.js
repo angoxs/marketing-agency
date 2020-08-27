@@ -34,11 +34,9 @@ export const TitleGroup = styled.div`
     grid-gap: 20px;
   }
 `;
-
 export const TitleContainer = styled.div`
   max-width: 800px;
 `;
-
 export const Title = styled.h2`
   font-size: 52px;
   font-weight: bold;
@@ -94,27 +92,5 @@ export const Span = styled.span`
 
   @media (max-width: 900px) {
     font-size: 12px;
-  }
-`;
-
-export const ServiceGrid = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  align-items: center;
-  justify-content: stretch;
-  width: 100%;
-  grid-gap: 20px;
-  margin-top: 50px;
-
-  @media (max-width: 1024px) {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  @media (max-width: 675px) {
-    grid-template-columns: 1fr;
-  }
-
-  a {
-    border: none;
   }
 `;

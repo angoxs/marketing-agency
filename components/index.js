@@ -17,3 +17,7 @@ export { default as AboutHero } from "./AboutHero";
 export { default as AboutDemo } from "./AboutDemo";
 export { default as AboutInfo } from "./AboutInfo";
 export { default as AboutMore } from "./AboutMore";
+
+// Contact Us
+export { default as ContactHero } from "./ContactHero";
+export { default as ContactForm } from "./ContactForm";

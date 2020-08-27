@@ -64,7 +64,7 @@ export default function NavLinks() {
       <NavItem href="/aboutus">
         <a>About Us</a>
       </NavItem>
-      <a href="mailto:angelCL0@outlook.com">
+      <a href="/contact">
         <Button>Contact</Button>
       </a>
     </>

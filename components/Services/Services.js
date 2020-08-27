@@ -12,6 +12,7 @@ import {
 } from "./style";
 import Fade from "react-reveal/Fade";
 import Service from "./Service";
+import Link from "next/link";
 
 export default function Services() {
   return (
@@ -39,34 +40,50 @@ export default function Services() {
         </TitleGroup>
 
         <ServiceGrid>
-          <Fade up>
-            <Service
-              image="/Icons/monitor.svg"
-              title="Design"
-              subtitle="Pay attention and learn the lessons contained in every experience."
-            />
-          </Fade>
-          <Fade up>
-            <Service
-              image="/Icons/gear.svg"
-              title="Application"
-              subtitle="The time that leads to mastery is dependent on the intensity of our focus."
-            />
-          </Fade>
-          <Fade up>
-            <Service
-              image="/Icons/supermarket.svg"
-              title="Ecommerce"
-              subtitle="The greatest test of courage on earth is to bear defeat without losing heart."
-            />
-          </Fade>
-          <Fade up>
-            <Service
-              image="/Icons/speaker.svg"
-              title="Smooth Interactions"
-              subtitle="Everything that happens to you is a form of instruction if you pay attention."
-            />
-          </Fade>
+          <Link href="/features">
+            <a>
+              <Fade up>
+                <Service
+                  image="/Icons/monitor.svg"
+                  title="Design"
+                  subtitle="Pay attention and learn the lessons contained in every experience."
+                />
+              </Fade>
+            </a>
+          </Link>
+          <Link href="/features">
+            <a>
+              <Fade up>
+                <Service
+                  image="/Icons/gear.svg"
+                  title="Application"
+                  subtitle="The time that leads to mastery is dependent on the intensity of our focus."
+                />
+              </Fade>
+            </a>
+          </Link>
+          <Link href="/features">
+            <a>
+              <Fade up>
+                <Service
+                  image="/Icons/supermarket.svg"
+                  title="Ecommerce"
+                  subtitle="The greatest test of courage on earth is to bear defeat without losing heart."
+                />
+              </Fade>
+            </a>
+          </Link>
+          <Link href="/features">
+            <a>
+              <Fade up>
+                <Service
+                  image="/Icons/speaker.svg"
+                  title="Smooth Interactions"
+                  subtitle="Everything that happens to you is a form of instruction if you pay attention."
+                />
+              </Fade>
+            </a>
+          </Link>
         </ServiceGrid>
       </Main>
     </Container>
