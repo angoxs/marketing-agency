@@ -40,8 +40,4 @@ export const ServiceGrid = styled.div`
   @media (max-width: 675px) {
     grid-template-columns: repeat(1, auto);
   }
-
-  a { 
-    border: none;
-  }
 `;
