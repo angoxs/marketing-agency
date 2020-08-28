@@ -39,7 +39,7 @@ const NavItem = styled(Link)`
 
 const Button = styled.button`
   font-size: 14px;
-  padding: 8px 18px;
+  padding: 15px 35px;
   border: none;
   cursor: pointer;
   background: ${({ theme }) => theme.accent};
