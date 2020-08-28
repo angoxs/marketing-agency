@@ -72,12 +72,15 @@ export const Button = styled.button`
   border-radius: 8px;
   font-weight: bold;
   font-size: 16px;
-  transition: all 200ms;
+  -webkit-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  transition: all 0.25s;
   user-select: none;
 
   :hover {
     background: #0070f3;
     box-shadow: 0 10px 20px rgba(0, 0, 255, 0.15);
+    transform: translateY(-8px);
   }
 
   @media (max-width: 1024px) {
