@@ -8,10 +8,10 @@ export const Container = styled.div`
   }
 
   @media (max-width: 1024px) {
-    padding: 0 20px 50px 20px;
+    padding: 0 0px 50px 0px;
   }
   @media (max-width: 900px) {
-    padding: 0 20px 20px 20px;
+    padding: 0 0px 20px 0px;
   }
 `;
 

@@ -21,7 +21,7 @@ export default function ContactHero() {
         <TitleGroup>
           <TitleContainer>
             <Fade up>
-              <Title>Start your own personal grocery shopping business.</Title>
+              <Title>Start your own personal online shopping business.</Title>
               <Subtitle>
                 Discuss your project with Angel to get things started or if you
                 have a quick question use the form below.

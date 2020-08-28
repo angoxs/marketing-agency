@@ -34,9 +34,11 @@ export const TitleGroup = styled.div`
     grid-gap: 20px;
   }
 `;
+
 export const TitleContainer = styled.div`
   max-width: 800px;
 `;
+
 export const Title = styled.h2`
   font-size: 52px;
   font-weight: bold;
@@ -54,6 +56,7 @@ export const Title = styled.h2`
     font-size: 32px;
   }
 `;
+
 export const Subtitle = styled.p`
   font-size: 22px;
   line-height: 1.4em;
@@ -68,6 +71,7 @@ export const Subtitle = styled.p`
     font-size: 18px;
   }
 `;
+
 export const Quote = styled.div`
   display: flex;
   align-items: center;
