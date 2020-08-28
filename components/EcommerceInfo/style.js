@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  padding: 90px 30px 310px 30px;
+  padding: 90px 30px 0px 30px;
   min-height: 100vh;
   z-index: 1;
 
@@ -36,7 +36,7 @@ export const Title = styled.h1`
   font-weight: bold;
   line-height: 125%;
   margin: 0;
-  margin-top: 10px;
+  margin-top: 30px;
   color: white;
 
   @media (max-width: 1024px) {

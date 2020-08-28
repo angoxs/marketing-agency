@@ -7,6 +7,7 @@ export default function ecommerce() {
       <EcommerceHero />
       <EcommerceDemo />
       <EcommerceInfo />
+      <EcommerceDemo />
     </Layout>
   );
 }
