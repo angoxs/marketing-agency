@@ -1,4 +1,4 @@
-import { Container, Main, ServiceGrid } from "./style";
+import { Container, Main, ServiceGrid, Navigation } from "./style";
 import Fade from "react-reveal/Fade";
 import { useState } from "react";
 import Demo from "./Demo/Demo";
@@ -42,7 +42,7 @@ export default function FeaturesDemo() {
           />
         </Fade>
         <Link href="/ecommerce">
-          <a>
+          <Navigation>
             <Fade up>
               <Demo
                 image="https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
@@ -50,7 +50,7 @@ export default function FeaturesDemo() {
                 subtitle="We help you with everything you need to start, run, and grow your own personal shopping business. This is more than a gig, it’s your company. "
               />
             </Fade>
-          </a>
+          </Navigation>
         </Link>
       </ServiceGrid>
     </Container>
