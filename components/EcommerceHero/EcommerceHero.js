@@ -23,8 +23,8 @@ export default function ContactHero() {
             <Fade up>
               <Title>Start your own personal online shopping business.</Title>
               <Subtitle>
-                Discuss your project with Angel to get things started or if you
-                have a quick question use the form below.
+                We build the tools that empower anyone to start, run, and grow
+                their own local, service-based business.
               </Subtitle>
             </Fade>
           </TitleContainer>
