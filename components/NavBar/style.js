@@ -106,14 +106,19 @@ export const Hamburger = styled.div`
   }
 `;
 
+export const LogoTitle = styled.p`
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+
+  span {
+    color: blue;
+    font-size: 18px;
+  }
+`;
+
 export const Logo = styled.div`
   cursor: pointer;
-
-  p {
-    color: black;
-    font-size: 18px;
-    font-weight: bold;
-  }
 `;
 
 // Not active

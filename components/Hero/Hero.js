@@ -34,7 +34,7 @@ export default function Hero() {
           <Welcome>
             <Fade up>
               <UncontrolledLottie />
-              <Span>WEPPA</Span>
+              <Span>PROGRESS</Span>
             </Fade>
           </Welcome>
 
