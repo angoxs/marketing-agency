@@ -4,9 +4,14 @@ const Container = styled.div`
   padding: 40px;
   border: 1px solid #e7e7ff;
   border-radius: 10px;
+  -webkit-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  transition: all 0.25s;
 
   :hover {
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 20px 40px rgba(240, 240, 240, 1);
+    background: #fefefe;
+    border: 1px solid #fefefe;
   }
 `;
 const Span = styled.span`
