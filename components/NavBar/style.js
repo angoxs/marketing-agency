@@ -109,8 +109,9 @@ export const Hamburger = styled.div`
 export const Logo = styled.div`
   cursor: pointer;
 
-  a {
+  p {
     color: black;
+    font-size: 18px;
     font-weight: bold;
   }
 `;

@@ -10,7 +10,8 @@ export default function NavBar() {
     <Container>
       <Logo>
         <Link href="/">
-          <img src="/Icons/qualcomm-2.svg" width="34px" />
+          <p>Weppa</p>
+          {/* <img src="/Icons/qualcomm-2.svg" width="34px" /> */}
         </Link>
       </Logo>
 
