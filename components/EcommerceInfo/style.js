@@ -176,4 +176,9 @@ export const SideColor = styled.div`
   right: 0;
   margin-top: -180px;
   border-bottom-right-radius: 10px;
+
+  @media (max-width: 900px) {
+    margin-top: -120px;
+    z-index: -2;
+  }
 `;
