@@ -20,7 +20,7 @@ export default function ContactHero() {
       <Main>
         <TitleGroup>
           <TitleContainer>
-            <Fade up>
+            <Fade left>
               <Title>Start your own personal online shopping business.</Title>
               <Subtitle>
                 We build the tools that empower anyone to start, run, and grow
