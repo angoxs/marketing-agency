@@ -6,7 +6,7 @@ const Container = styled.div`
   border-radius: 10px;
 
   :hover {
-    box-shadow: 0 20px 40px rgba(0, 0, 255, 0.1);
+    box-shadow: 0 20px 40px rgba(0, 0, 255, 0.07);
   }
 `;
 const IMG = styled.img`
