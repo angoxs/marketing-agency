@@ -134,11 +134,11 @@ export const Div = styled.div`
   height: 5px;
   width: 35px;
   border-radius: 2px;
-  background-color: blue;
+  background-color: #ffff02;
 `;
 export const Span = styled.span`
   font-size: 12px;
-  color: blue;
+  color: #ffff02;
   margin-left: 10px;
   font-weight: bold;
 `;
