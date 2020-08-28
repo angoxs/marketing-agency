@@ -26,14 +26,23 @@ export default function EcommerceInfo() {
             <Welcome>
               <Fade up>
                 <Div />
-                <Span>INFO</Span>
+                <Span>WHAT WE DO</Span>
               </Fade>
             </Welcome>
 
             <Fade>
-              <Title>What we do</Title>
+              <Title>
+                Everything you need to start, run, and grow your own personal
+                shopping business. This is more than a gig, it’s your company.
+              </Title>
             </Fade>
             <Subtitle>
+              You set your own prices, keep 100% of your tips, and get earnings
+              deposited after every order. You work for you, not for us - so you
+              decide how to promote your business and service your clients.
+            </Subtitle>
+
+            {/* <Subtitle>
               Now instead of a relentless question, we have a clear mission: To
               make small business ownership available to anyone who wants it.
               We’re proud to build the tools that empower anyone to start, run,
@@ -43,7 +52,7 @@ export default function EcommerceInfo() {
               clients and keeping local dollars in local economies. And every
               single one of those small business owners has greater control,
               autonomy, and flexibility over the way they work today.
-            </Subtitle>
+            </Subtitle> */}
           </TitleContainer>
           <div />
         </Main>
