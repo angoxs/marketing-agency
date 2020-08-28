@@ -21,3 +21,6 @@ export { default as AboutMore } from "./AboutMore";
 // Contact Us
 export { default as ContactHero } from "./ContactHero";
 export { default as ContactForm } from "./ContactForm";
+
+// Ecommerce
+export { default as EcommerceHero } from "./EcommerceHero";
