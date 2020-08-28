@@ -15,33 +15,28 @@ import {
 import Fade from "react-reveal/Fade";
 import Link from "next/link";
 
-export default function EcommerceMoreInfo() {
+export default function EcommerceMoreInfoThree() {
   return (
     <Fade up>
       <Container>
         <SideColor />
 
         <Main>
-          <div />
-
           <TitleContainer>
             <Welcome>
               <Fade up>
                 <Div />
-                <Span>PLANNING IS EVERYTHING</Span>
+                <Span>INTEGRITY</Span>
               </Fade>
             </Welcome>
 
             <Fade>
               <Title>
-                You choose your clients, set your schedule, and make decisions
-                about where you shop.
+                Save time and money in hours of development, let us handle your
+                online business needs.
               </Title>
             </Fade>
-            <Subtitle>
-              We'll keep your business loaded, provide ground support, and
-              keep building you the best technology.
-            </Subtitle>
+            <Subtitle>and no hidden price markups (ever)</Subtitle>
 
             {/* <Subtitle>
               Now instead of a relentless question, we have a clear mission: To
@@ -55,6 +50,7 @@ export default function EcommerceMoreInfo() {
               autonomy, and flexibility over the way they work today.
             </Subtitle> */}
           </TitleContainer>
+          <div />
         </Main>
       </Container>
     </Fade>

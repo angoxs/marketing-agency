@@ -6,6 +6,7 @@ import {
   EcommerceDemoTwo,
   EcommerceMoreInfo,
   EcommerceDemoThree,
+  EcommerceMoreInfoThree,
 } from "../components";
 
 export default function ecommerce() {
@@ -17,6 +18,7 @@ export default function ecommerce() {
       <EcommerceDemoTwo />
       <EcommerceMoreInfo />
       <EcommerceDemoThree />
+      <EcommerceMoreInfoThree />
     </Layout>
   );
 }

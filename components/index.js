@@ -28,4 +28,5 @@ export { default as EcommerceDemo } from "./EcommerceDemo";
 export { default as EcommerceInfo } from "./EcommerceInfo";
 export { default as EcommerceDemoTwo } from "./EcommerceDemoTwo";
 export { default as EcommerceMoreInfo } from "./EcommerceMoreInfo";
-export { default as EcommerceDemoThree} from './EcommerceDemoThree'
+export { default as EcommerceDemoThree } from "./EcommerceDemoThree";
+export { default as EcommerceMoreInfoThree } from "./EcommerceMoreInfoThree";
