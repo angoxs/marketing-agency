@@ -64,7 +64,7 @@ export const Subtitle = styled.p`
 `;
 
 export const Button = styled.button`
-  padding: 15px 30px;
+  padding: 20px 40px;
   color: white;
   background: ${({ theme }) => theme.accent};
   border: none;
@@ -73,6 +73,7 @@ export const Button = styled.button`
   font-weight: bold;
   font-size: 16px;
   transition: all 200ms;
+  user-select: none;
 
   :hover {
     background: #0070f3;
