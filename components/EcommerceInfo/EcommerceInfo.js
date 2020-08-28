@@ -19,8 +19,6 @@ export default function EcommerceInfo() {
   return (
     <Fade up>
       <Container>
-        <SideColor />
-
         <Main>
           <TitleContainer>
             <Welcome>

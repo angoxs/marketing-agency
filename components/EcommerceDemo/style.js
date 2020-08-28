@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  padding: 0 0px 90px 0px;
+  padding: 0 0px 0px 0px;
 
   @media (max-width: 2000px) {
     min-height: 70vh;
   }
 
   @media (max-width: 1024px) {
-    padding: 0 0px 50px 0px;
+    padding: 0 0px 0px 0px;
   }
   @media (max-width: 900px) {
-    padding: 0 0px 20px 0px;
+    padding: 0 0px 0px 0px;
   }
 `;
 
