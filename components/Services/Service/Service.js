@@ -1,12 +1,17 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-  padding: 20px;
-  border: 1px solid #d0d9de;
-  border-radius: 10px;
+  padding: 40px 20px;
+  border: 1px solid #d8d8d8;
+  border-radius: 30px;
+  -webkit-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  transition: all 0.25s;
 
   :hover {
-    box-shadow: 0 20px 40px rgba(0, 0, 255, 0.07);
+    box-shadow: 0 20px 40px rgba(240, 240, 240, 1);
+    background: #fefefe;
+    border: none;
   }
 `;
 const IMG = styled.img`
