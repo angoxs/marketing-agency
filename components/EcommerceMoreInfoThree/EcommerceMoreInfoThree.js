@@ -37,6 +37,14 @@ export default function EcommerceMoreInfoThree() {
               </Title>
             </Fade>
             <Subtitle>and no hidden price markups (ever)</Subtitle>
+            <ButtonGroup>
+              {" "}
+              <Link href="/contact">
+                <a>
+                  <Button>Start a Project</Button>
+                </a>
+              </Link>
+            </ButtonGroup>
 
             {/* <Subtitle>
               Now instead of a relentless question, we have a clear mission: To
