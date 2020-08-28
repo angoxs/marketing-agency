@@ -50,8 +50,7 @@ export const Title = styled.h1`
 export const Subtitle = styled.p`
   font-size: 22px;
   line-height: 1.4em;
-  color: #57577d;
-  color: ${({ theme }) => theme.subHeading};
+  color: #595959;
 
   @media (max-width: 1024px) {
     font-size: 20px;
