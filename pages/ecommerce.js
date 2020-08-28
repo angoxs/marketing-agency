@@ -1,10 +1,11 @@
 import Layout from "../components/Layout";
-import { EcommerceHero } from "../components";
+import { EcommerceHero, EcommerceDemo } from "../components";
 
 export default function ecommerce() {
   return (
     <Layout>
       <EcommerceHero />
+      <EcommerceDemo />
     </Layout>
   );
 }
