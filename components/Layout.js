@@ -32,7 +32,6 @@ export default function Layout({ children }) {
           cardType: "summary_large_image",
         }}
       />
-
       <NavBar />
 
       <script
@@ -42,7 +41,6 @@ export default function Layout({ children }) {
         defer
         src="//js.hs-scripts.com/8357088.js"
       ></script>
-
       {children}
       <Footer />
       <FooterClip />
