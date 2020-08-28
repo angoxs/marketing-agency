@@ -44,8 +44,8 @@ export default function FeaturesDemo() {
         <Fade up>
           <Demo
             image="https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
-            title="Technical SEO"
-            subtitle="Great user experiences are vital to building trust and core to our approach in pursuing intuitive function, simplicity and delight."
+            title="E-commerce"
+            subtitle="We help you with everything you need to start, run, and grow your own personal shopping business. This is more than a gig, it’s your company. "
           />
         </Fade>
       </ServiceGrid>
