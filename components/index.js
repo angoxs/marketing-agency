@@ -25,3 +25,4 @@ export { default as ContactForm } from "./ContactForm";
 // Ecommerce
 export { default as EcommerceHero } from "./EcommerceHero";
 export { default as EcommerceDemo } from "./EcommerceDemo";
+export { default as EcommerceInfo } from './EcommerceInfo'
