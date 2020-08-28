@@ -11,7 +11,7 @@ const Container = styled.div`
   :hover {
     box-shadow: 0 20px 40px rgba(240, 240, 240, 1);
     background: #fefefe;
-    border: none;
+    border: 1px solid #fefefe;
   }
 `;
 const IMG = styled.img`
