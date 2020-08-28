@@ -169,7 +169,7 @@ export const SideColor = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background: #0b0b0b;
-  height: 110vh;
+  height: 120vh;
   width: 100%;
   position: absolute;
   z-index: -1;
