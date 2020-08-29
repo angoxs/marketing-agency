@@ -42,6 +42,14 @@ export default function DesignInfoThree() {
               speed and optimisation so your users will love you as much as
               Google does.
             </Subtitle>
+            <ButtonGroup>
+              {" "}
+              <Link href="/contact">
+                <a>
+                  <Button>Start a Project</Button>
+                </a>
+              </Link>
+            </ButtonGroup>
           </TitleContainer>
           <div />
         </Main>

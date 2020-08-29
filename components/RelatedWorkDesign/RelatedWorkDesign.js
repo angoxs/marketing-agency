@@ -30,7 +30,7 @@ export default function RelatedWorkDesign() {
         <Fade up>
           <RelatedDesign
             image="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
-            title="Web & App Development"
+            title="Development"
             subtitle="We architect, build, and deliver robust digital products entirely in-house, backed by our reputation for quality, stability and support."
           />
         </Fade>
