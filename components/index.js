@@ -35,3 +35,4 @@ export { default as RelatedWork } from "./RelatedWork";
 // Design
 export { default as DesignHero } from "./DesignHero";
 export { default as RelatedWorkDesign } from "./RelatedWorkDesign";
+export { default as DesignDemo } from "./DesignDemo";
