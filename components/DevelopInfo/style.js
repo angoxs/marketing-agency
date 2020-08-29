@@ -51,7 +51,8 @@ export const Title = styled.h1`
 export const Subtitle = styled.p`
   font-size: 22px;
   line-height: 1.4em;
-  color: #595959;
+  color: rgba(255,255,255,0.8);
+  /* color: #595959; */
 
   @media (max-width: 1024px) {
     font-size: 20px;
