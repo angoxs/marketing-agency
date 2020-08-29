@@ -31,3 +31,6 @@ export { default as EcommerceMoreInfo } from "./EcommerceMoreInfo";
 export { default as EcommerceDemoThree } from "./EcommerceDemoThree";
 export { default as EcommerceMoreInfoThree } from "./EcommerceMoreInfoThree";
 export { default as RelatedWork } from "./RelatedWork";
+
+// Design
+export { default as DesignHero } from "./DesignHero";

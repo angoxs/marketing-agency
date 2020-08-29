@@ -18,13 +18,17 @@ export default function FeaturesDemo() {
         <Main />
       </Fade>
       <ServiceGrid>
-        <Fade up>
-          <Demo
-            image="https://images.unsplash.com/photo-1493307100940-ac5f30709573?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
-            title="UI-X Design"
-            subtitle="Design is at the heart of all that we do, drawing on our passion for creativity and award-winning expertise."
-          />
-        </Fade>
+        <Link href="/design">
+          <Navigation>
+            <Fade up>
+              <Demo
+                image="https://images.unsplash.com/photo-1493307100940-ac5f30709573?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+                title="UI-X Design"
+                subtitle="Design is at the heart of all that we do, drawing on our passion for creativity and award-winning expertise."
+              />
+            </Fade>
+          </Navigation>
+        </Link>
 
         <Fade up>
           <Demo
