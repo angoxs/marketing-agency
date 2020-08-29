@@ -2,7 +2,9 @@
   "forms": {
     "contactForm": {
       "name": "Contact Form",
-      "actions": [{ "type": "email", "to": "angelCL0@outlook.com" }]
+      "actions": [
+        { "type": "name", "type": "email", "to": "angelCL0@outlook.com" }
+      ]
     }
   }
 }

@@ -13,7 +13,7 @@ const Form = styled.form`
 
   input {
     font-size: 16px;
-    border: 1px solid #e7e7ff;
+    border: 1px solid #d8d8d8;
     padding: 15px;
     border-radius: 8px;
     background: #fff;
@@ -71,6 +71,13 @@ export default function KitForm() {
   return (
     <Form onSubmit={handleSubmit}>
       <input
+        id="name"
+        name="name"
+        type="name"
+        placeholder="Your name"
+        required
+      />
+      <input
         id="email"
         name="email"
         type="email"
@@ -78,6 +85,7 @@ export default function KitForm() {
         required
       />
       <textarea id="message" name="message" placeholder="Message" />
+      <ValidationError prefix="Name" field="name" erros={state.errors} />
       <ValidationError prefix="Message" field="message" errors={state.errors} />
       <ValidationError prefix="Email" field="email" errors={state.errors} />
       <button type="submit" disabled={state.submitting}>
