@@ -41,3 +41,5 @@ export { default as DesignDemoTwo } from "./DesignDemoTwo";
 export { default as DesignInfoTwo } from "./DesignInfoTwo";
 export { default as DesignDemoThree } from "./DesignDemoThree";
 export { default as DesignInfoThree } from "./DesignInfoThree";
+export { default as RelatedDevelop } from "./RelatedDevelop";
+export { default as DevelopHero } from "./DevelopHero";

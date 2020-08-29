@@ -29,15 +29,17 @@ export default function FeaturesDemo() {
             </Fade>
           </Navigation>
         </Link>
-
-        <Fade up>
-          <Demo
-            image="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80"
-            title="Development"
-            subtitle="We architect, build, and deliver robust digital products entirely in-house, backed by our reputation for quality, stability and support."
-          />
-        </Fade>
-
+        <Link href="/develop">
+          <Navigation>
+            <Fade up>
+              <Demo
+                image="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1652&q=80"
+                title="Development"
+                subtitle="We architect, build, and deliver robust digital products entirely in-house, backed by our reputation for quality, stability and support."
+              />
+            </Fade>
+          </Navigation>
+        </Link>
         <Fade up>
           <Demo
             image="https://images.unsplash.com/photo-1477013743164-ffc3a5e556da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=1650&q=80"
