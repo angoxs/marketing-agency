@@ -22,7 +22,7 @@ export default function DesignHero() {
               <Title>Obsessed With Details</Title>
               <Subtitle>
                 We create the assets your company needs to build a best-in-breed
-                brand
+                brand.
               </Subtitle>
             </Fade>
           </TitleContainer>
