@@ -18,8 +18,6 @@ import Link from "next/link";
 export default function Info() {
   return (
     <Container>
-      <SideColor />
-
       <Main>
         <TitleContainer>
           <Welcome>

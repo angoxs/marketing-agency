@@ -4,6 +4,10 @@ export const Container = styled.div`
   padding: 90px 30px 310px 30px;
   min-height: 100vh;
   z-index: 1;
+  background-image: url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
   @media (max-width: 2000px) {
     min-height: 100vh;
@@ -142,47 +146,4 @@ export const Span = styled.span`
   color: blue;
   margin-left: 10px;
   font-weight: bold;
-`;
-
-export const FeaturedImage = styled.div`
-  background-image: url("https://images.unsplash.com/photo-1526570207772-784d36084510?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80");
-  height: 500px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 10px;
-
-  @media (max-width: 1024px) {
-    height: 400px;
-  }
-
-  @media (max-width: 675px) {
-    height: 350px;
-  }
-
-  @media (max-width: 375px) {
-    height: 250px;
-  }
-`;
-
-export const SideColor = styled.div`
-  background-image: url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 110vh;
-  opacity: 0.8;
-  width: 100%;
-  opacity: 0.8;
-  position: absolute;
-  z-index: -1;
-  right: 0;
-  margin-top: -100px;
-  border-bottom-right-radius: 10px;
-
-  @media (max-width: 1024px) {
-    background-color: #f3f3fd;
-    height: 100vh;
-    opacity: 0.2;
-  }
 `;
