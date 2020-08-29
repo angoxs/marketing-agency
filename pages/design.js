@@ -1,11 +1,11 @@
 import Layout from "../components/Layout";
-import { DesignHero, RelatedWork } from "../components";
+import { DesignHero, RelatedWorkDesign } from "../components";
 
 export default function design() {
   return (
     <Layout>
       <DesignHero />
-      <RelatedWork />
+      <RelatedWorkDesign />
     </Layout>
   );
 }

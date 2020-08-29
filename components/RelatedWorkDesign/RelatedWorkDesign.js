@@ -1,10 +1,10 @@
 import { Container, Main, ServiceGrid, Navigation } from "./style";
 import Fade from "react-reveal/Fade";
 import { useState } from "react";
-import Related from "./Related";
+import RelatedDesign from "./RelatedDesign";
 import Link from "next/link";
 
-export default function RelatedWork() {
+export default function RelatedWorkDesign() {
   const [count, setCount] = useState(0);
 
   function play() {
@@ -15,19 +15,20 @@ export default function RelatedWork() {
   return (
     <Container>
       <ServiceGrid>
-        <Link href="/design">
+        <Link href="/ecommerce">
           <Navigation>
             <Fade up>
-              <Related
-                image="https://images.unsplash.com/photo-1493307100940-ac5f30709573?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
-                title="UI-X Design"
-                subtitle="Design is at the heart of all that we do, drawing on our passion for creativity and award-winning expertise."
+              <RelatedDesign
+                image="https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+                title="E-commerce"
+                subtitle="We help you with everything you need to start, run, and grow your own personal shopping business. This is more than a gig, it’s your company. "
               />
             </Fade>
           </Navigation>
         </Link>
+
         <Fade up>
-          <Related
+          <RelatedDesign
             image="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
             title="Web & App Development"
             subtitle="We architect, build, and deliver robust digital products entirely in-house, backed by our reputation for quality, stability and support."
@@ -36,7 +37,7 @@ export default function RelatedWork() {
         <Link href="/features">
           <Navigation>
             <Fade up>
-              <Related
+              <RelatedDesign
                 image="https://images.unsplash.com/photo-1477013743164-ffc3a5e556da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=1650&q=80"
                 title="Marketing"
                 subtitle="We deliver solutions the only way we know how: obsess over detail and quality, collaborate with clients and ensure outstanding service."
