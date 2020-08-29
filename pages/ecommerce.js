@@ -7,6 +7,7 @@ import {
   EcommerceMoreInfo,
   EcommerceDemoThree,
   EcommerceMoreInfoThree,
+  RelatedWork,
 } from "../components";
 
 export default function ecommerce() {
@@ -19,6 +20,7 @@ export default function ecommerce() {
       <EcommerceMoreInfo />
       <EcommerceDemoThree />
       <EcommerceMoreInfoThree />
+      <RelatedWork />
     </Layout>
   );
 }
