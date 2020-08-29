@@ -34,7 +34,7 @@ export default function DevelopInfo() {
             </Fade>
             <Subtitle>
               In fact, we’re so confident in its abilities we consider ourselves
-              as one of the UK’s leading React development teams.Since 2018
+              as one of the US’s leading React development teams.Since 2018
               we’ve been in love with Code and have never looked back. In fact,
               we’re so confident in its abilities we consider ourselves as one
               of the US’s leading development teams.
