@@ -48,4 +48,5 @@ export { default as DevelopHero } from "./DevelopHero";
 export { default as DevelopDemo } from "./DevelopDemo";
 export { default as DevelopInfo } from "./DevelopInfo";
 export { default as DevelopDemoTwo } from "./DevelopDemoTwo";
-export { default as DevelopInfoTwo } from './DevelopInfoTwo'
+export { default as DevelopInfoTwo } from "./DevelopInfoTwo";
+export { default as DevelopDemoThree } from "./DevelopDemoThree";
