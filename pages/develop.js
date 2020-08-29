@@ -5,6 +5,7 @@ import {
   DevelopDemo,
   DevelopInfo,
   DevelopDemoTwo,
+  DevelopInfoTwo,
 } from "../components";
 
 export default function develop() {
@@ -14,6 +15,7 @@ export default function develop() {
       <DevelopDemo />
       <DevelopInfo />
       <DevelopDemoTwo />
+      <DevelopInfoTwo />
       <RelatedDevelop />
     </Layout>
   );

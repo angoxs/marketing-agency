@@ -13,11 +13,12 @@ import {
 import Fade from "react-reveal/Fade";
 import Link from "next/link";
 
-export default function DevelopInfo() {
+export default function DevelopInfoTwo() {
   return (
     <Fade up>
       <Container>
         <Main>
+          <div />
           <TitleContainer>
             <Welcome>
               <Fade up>
@@ -40,7 +41,6 @@ export default function DevelopInfo() {
               of the US’s leading development teams.
             </Subtitle>
           </TitleContainer>
-          <div />
         </Main>
       </Container>
     </Fade>
