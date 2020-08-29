@@ -16,7 +16,7 @@ export const Container = styled.div`
 `;
 
 export const Main = styled.div`
-  background-image: url("https://images.unsplash.com/photo-1584680226833-0d680d0a0794?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+  background-image: url("/Eco.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -16,7 +16,7 @@ export const Container = styled.div`
 `;
 
 export const Main = styled.div`
-  background-image: url("https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+  background-image: url("/shop.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
