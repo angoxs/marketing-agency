@@ -23,22 +23,20 @@ export default function DevelopInfoTwo() {
             <Welcome>
               <Fade up>
                 <Div />
-                <Span>WE'RE THE EXPERTS</Span>
+                <Span>WHAT MAKES US DIFFERENT</Span>
               </Fade>
             </Welcome>
 
             <Fade>
               <Title>
-                Since 2018 we’ve been in love with Development and have never
-                looked back.
+                We’re the experts in development and React with a focus on
+                design first. 
               </Title>
             </Fade>
             <Subtitle>
-              In fact, we’re so confident in its abilities we consider ourselves
-              as one of the US’s leading React development teams.Since 2018
-              we’ve been in love with Code and have never looked back. In fact,
-              we’re so confident in its abilities we consider ourselves as one
-              of the US’s leading development teams.
+            Creating industry leading brands, best in class
+                websites, and online products that help grow your business. It’s
+                what makes us different.
             </Subtitle>
           </TitleContainer>
         </Main>
