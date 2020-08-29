@@ -19,8 +19,6 @@ export default function EcommerceMoreInfo() {
   return (
     <Fade up>
       <Container>
-        <SideColor />
-
         <Main>
           <div />
 
@@ -39,8 +37,8 @@ export default function EcommerceMoreInfo() {
               </Title>
             </Fade>
             <Subtitle>
-              We'll keep your business loaded, provide ground support, and
-              keep building you the best technology.
+              We'll keep your business loaded, provide ground support, and keep
+              building you the best technology.
             </Subtitle>
 
             {/* <Subtitle>

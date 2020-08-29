@@ -4,16 +4,17 @@ export const Container = styled.div`
   padding: 90px 30px 0px 30px;
   min-height: 100vh;
   z-index: 1;
+  background: #0b0b0b;
 
   @media (max-width: 2000px) {
     min-height: 100vh;
   }
 
   @media (max-width: 1024px) {
-    padding: 90px 20px;
+    padding: 0px 20px;
   }
   @media (max-width: 900px) {
-    padding: 60px 20px;
+    padding: 0px 20px;
   }
 `;
 export const Main = styled.div`
@@ -168,7 +169,7 @@ export const SideColor = styled.div`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background: #0b0b0b;
+
   height: 120vh;
   width: 100%;
   position: absolute;
