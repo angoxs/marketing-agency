@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Container = styled.div`
   padding: 40px 20px;
   border: 1px solid #d8d8d8;
-  border-radius: 30px;
+  border-radius: 8px;
   -webkit-transition: all 0.25s;
   -o-transition: all 0.25s;
   transition: all 0.25s;
@@ -12,6 +12,7 @@ const Container = styled.div`
     box-shadow: 0 20px 40px rgba(240, 240, 240, 1);
     background: #fefefe;
     border: 1px solid #fefefe;
+    border-radius: 30px;
   }
 `;
 const IMG = styled.img`
