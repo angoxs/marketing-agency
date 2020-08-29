@@ -37,4 +37,7 @@ export { default as DesignHero } from "./DesignHero";
 export { default as RelatedWorkDesign } from "./RelatedWorkDesign";
 export { default as DesignDemo } from "./DesignDemo";
 export { default as DesignInfo } from "./DesignInfo";
-export { default as DesignDemoTwo } from './DesignDemoTwo'
+export { default as DesignDemoTwo } from "./DesignDemoTwo";
+export { default as DesignInfoTwo } from "./DesignInfoTwo";
+export { default as DesignDemoThree } from "./DesignDemoThree";
+export { default as DesignInfoThree } from "./DesignInfoThree";

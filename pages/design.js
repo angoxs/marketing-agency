@@ -5,6 +5,9 @@ import {
   DesignDemo,
   DesignInfo,
   DesignDemoTwo,
+  DesignInfoTwo,
+  DesignDemoThree,
+  DesignInfoThree,
 } from "../components";
 
 export default function design() {
@@ -14,6 +17,9 @@ export default function design() {
       <DesignDemo />
       <DesignInfo />
       <DesignDemoTwo />
+      <DesignInfoTwo />
+      <DesignDemoThree />
+      <DesignInfoThree />
       <RelatedWorkDesign />
     </Layout>
   );
