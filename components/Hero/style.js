@@ -85,12 +85,12 @@ export const Button = styled.button`
 
   @media (max-width: 1024px) {
     font-size: 14px;
-    padding: 15px 30px;
+    padding: 15px 35px;
   }
 
   @media (max-width: 900px) {
     font-size: 14px;
-    padding: 12px 25px;
+    padding: 15px 35px;
   }
 `;
 
@@ -105,12 +105,12 @@ export const TitleContainer = styled.div`
 
     @media (max-width: 1024px) {
       font-size: 14px;
-      padding: 15px 30px;
+      padding: 15px 35px;
     }
 
     @media (max-width: 900px) {
       font-size: 14px;
-      padding: 12px 25px;
+      padding: 15px 35px;
       border: 1px solid #d7d7fd;
     }
   }
@@ -144,6 +144,11 @@ export const ButtonGroup = styled.div`
   @media (max-width: 900px) {
     max-width: 350px;
   }
+
+  /* @media (max-width: 375px) {
+    max-width: 100%;
+    grid-template-columns: 1fr;
+  } */
 `;
 export const Welcome = styled.div`
   display: flex;
